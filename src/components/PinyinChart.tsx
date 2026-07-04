@@ -22,6 +22,131 @@ const FINALS = [
   'ang', 'eng', 'ing', 'ong',
 ];
 
+// Common hanzi for each valid pinyin combination (initial+final)
+const HANZI_MAP: Record<string, string> = {
+  // b
+  ba: '八', bo: '玻', bi: '笔', bu: '不',
+  bai: '白', bei: '北', bao: '包',
+  ban: '半', ben: '本', bin: '宾',
+  bang: '帮', beng: '崩', bing: '冰',
+  // p
+  pa: '怕', po: '坡', pi: '皮', pu: '普',
+  pai: '拍', pei: '配', pao: '跑', pou: '剖',
+  pan: '盘', pen: '盆', pin: '拼',
+  pang: '旁', peng: '朋', ping: '平',
+  // m
+  ma: '妈', mo: '摸', me: '么', mi: '米', mu: '木',
+  mai: '买', mei: '没', mao: '猫', mou: '某', miu: '谬',
+  man: '满', men: '门', min: '民',
+  mang: '忙', meng: '梦', ming: '明',
+  // f
+  fa: '发', fo: '佛', fu: '父',
+  fei: '飞',
+  fan: '饭', fen: '分',
+  fang: '方', feng: '风',
+  // d
+  da: '大', de: '的', di: '地', du: '读',
+  dai: '代', dei: '得', dui: '对', dao: '到', dou: '都', diu: '丢',
+  die: '跌',
+  dan: '但', den: '扽', dun: '顿',
+  dang: '当', deng: '灯', ding: '丁', dong: '东',
+  // t
+  ta: '他', te: '特', ti: '体', tu: '土',
+  tai: '太', tui: '推', tao: '套', tou: '头',
+  tie: '贴',
+  tan: '谈', tun: '吞',
+  tang: '糖', teng: '疼', ting: '听', tong: '同',
+  // n
+  na: '那', ne: '呢', ni: '你', nu: '怒', nü: '女',
+  nai: '奶', nei: '内', nao: '脑',
+  nie: '捏', niu: '牛',
+  nan: '难', nen: '嫩', nin: '您',
+  nang: '囊', neng: '能', ning: '宁', nong: '农',
+  // l
+  la: '拉', le: '了', li: '里', lu: '路', lü: '绿',
+  lai: '来', lei: '累', lao: '老', lou: '楼', liu: '六',
+  lie: '列',
+  lan: '蓝', lin: '林',
+  lang: '狼', leng: '冷', ling: '零', long: '龙',
+  // g
+  ga: '嘎', ge: '个', gu: '古',
+  gai: '该', gei: '给', gui: '贵', gao: '高', gou: '够',
+  gan: '干', gen: '根', gun: '滚',
+  gang: '刚', geng: '更', gong: '工',
+  // k
+  ka: '卡', ke: '可', ku: '苦',
+  kai: '开', kei: '尅', kui: '亏', kao: '考', kou: '口',
+  kan: '看', ken: '肯', kun: '困',
+  kang: '康', keng: '坑', kong: '空',
+  // h
+  ha: '哈', he: '和', hu: '湖',
+  hai: '还', hei: '黑', hui: '回', hao: '好', hou: '后',
+  han: '汉', hen: '很', hun: '混',
+  hang: '行', heng: '横', hong: '红',
+  // j
+  ji: '机', ju: '句',
+  jia: '家', jie: '姐', jiu: '九',
+  jian: '见', jin: '今', jun: '军',
+  jiang: '江', jing: '京',
+  // q
+  qi: '七', qu: '去',
+  qia: '恰', qie: '切', qiu: '秋',
+  qian: '前', qin: '亲', qun: '群',
+  qiang: '强', qing: '青',
+  // x
+  xi: '西', xu: '许',
+  xia: '下', xie: '写', xiu: '秀',
+  xian: '先', xin: '新', xun: '寻',
+  xiang: '想', xing: '星',
+  // zh
+  zha: '炸', zhe: '这', zhi: '知', zhu: '猪',
+  zhai: '宅', zhei: '这', zhui: '追', zhao: '找', zhou: '周',
+  zhan: '站', zhen: '真', zhun: '准',
+  zhang: '张', zheng: '正', zhong: '中',
+  // ch
+  cha: '茶', che: '车', chi: '吃', chu: '出',
+  chai: '拆', chui: '吹', chao: '超', chou: '臭',
+  chan: '产', chen: '陈', chun: '春',
+  chang: '常', cheng: '成', chong: '虫',
+  // sh
+  sha: '沙', she: '蛇', shi: '十', shu: '书',
+  shai: '晒', shui: '水', shao: '少', shou: '手',
+  shan: '山', shen: '深', shun: '顺',
+  shang: '上', sheng: '生',
+  // r
+  re: '热', ri: '日', ru: '入',
+  rui: '瑞', rao: '绕', rou: '肉',
+  ran: '然', ren: '人', run: '润',
+  rang: '让', reng: '仍', rong: '容',
+  // z
+  za: '杂', ze: '则', zi: '子', zu: '组',
+  zai: '在', zei: '贼', zui: '最', zao: '早', zou: '走',
+  zan: '咱', zen: '怎', zun: '尊',
+  zang: '脏', zeng: '增', zong: '总',
+  // c
+  ca: '擦', ce: '策', ci: '次', cu: '粗',
+  cai: '菜', cui: '催', cao: '草', cou: '凑',
+  can: '参', cen: '岑', cun: '村',
+  cang: '藏', ceng: '层', cong: '从',
+  // s
+  sa: '撒', se: '色', si: '四', su: '素',
+  sai: '赛', sui: '岁', sao: '扫', sou: '搜',
+  san: '三', sen: '森', sun: '孙',
+  sang: '桑', seng: '僧', song: '送',
+  // y
+  ya: '牙', yo: '哟', ye: '也', yi: '一', yu: '鱼',
+  yao: '要', you: '有',
+  yan: '烟', yin: '因', yuan: '元', yun: '云',
+  yang: '样', ying: '英', yong: '用',
+  // w
+  wa: '挖', wo: '我', wu: '五',
+  wai: '外', wei: '位',
+  wan: '万', wen: '问',
+  wang: '王', weng: '翁',
+  // er
+  er: '二',
+};
+
 // Diacritic tables for placing tone marks on the correct vowel.
 const TONE_MARKS: Record<string, string[]> = {
   a: ['a', 'ā', 'á', 'ǎ', 'à'],
@@ -159,7 +284,7 @@ export function PinyinChart({ open, onClose }: PinyinChartProps) {
                             <td key={final} className="p-0">
                               <button
                                 onClick={() => handleCell(initial, final)}
-                                className={`w-full min-w-[44px] h-9 rounded-lg text-[12px] font-bold transition-all border ${
+                                className={`w-full min-w-[44px] rounded-lg text-[12px] font-bold transition-all border flex flex-col items-center justify-center gap-0 ${
                                   isSel
                                     ? 'ring-2 ring-black scale-105 text-black'
                                     : 'border-black/5 text-gray-700 hover:brightness-95 active:translate-y-0.5'
@@ -168,10 +293,13 @@ export function PinyinChart({ open, onClose }: PinyinChartProps) {
                                   backgroundColor: isSel
                                     ? group.color
                                     : `${group.color}22`,
+                                  minHeight: HANZI_MAP[`${initial}${final}`] ? '40px' : '36px',
                                 }}
                               >
-                                {initial}
-                                {final}
+                                <span>{initial}{final}</span>
+                                {HANZI_MAP[`${initial}${final}`] && (
+                                  <span className="text-[10px] font-extrabold opacity-70 leading-none">{HANZI_MAP[`${initial}${final}`]}</span>
+                                )}
                               </button>
                             </td>
                           );
