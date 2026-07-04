@@ -69,6 +69,9 @@ export function useGameLogic() {
   const [manualInputValue, setManualInputValue] = useState('');
   const [isManualInputCorrect, setIsManualInputCorrect] = useState<boolean | null>(null);
 
+  // Guard against double-click on check answer
+  const isTransitioning = useRef(false);
+
   // ── Refs for latest values in callbacks ──
   const gameStateRef = useRef(gameState);
   gameStateRef.current = gameState;
@@ -155,6 +158,8 @@ export function useGameLogic() {
   }, [triggerHaptic, addScore]);
 
   const nextQuestion = useCallback(() => {
+    if (isTransitioning.current) return;
+    isTransitioning.current = true;
     const idx = idxRef.current;
     const qs = questionsRef.current;
     if (idx < qs.length - 1) {
@@ -166,6 +171,8 @@ export function useGameLogic() {
       incrementStreak();
       if (timerIntervalRef.current) clearInterval(timerIntervalRef.current);
     }
+    // ponytail: 300ms debounce window; increase if user has slow device
+    setTimeout(() => { isTransitioning.current = false; }, 300);
   }, [resetQuestionStates, incrementStreak]);
 
   const startMode = useCallback(
@@ -181,6 +188,7 @@ export function useGameLogic() {
   );
 
   const handleCheckAnswer = useCallback(() => {
+    if (isTransitioning.current) return;
     const question = questionsRef.current[idxRef.current];
     if (!question) return;
 
