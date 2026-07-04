@@ -1,0 +1,483 @@
+[
+  {
+    "id": 1,
+    "level": 1,
+    "format": "reading_choice",
+    "body": "你好，你叫什么名字？",
+    "choices": [
+      { "label": "A", "hanzi": "我叫王明。" },
+      { "label": "B", "hanzi": "我很好。" },
+      { "label": "C", "hanzi": "谢谢你。" },
+      { "label": "D", "hanzi": "再见。" }
+    ],
+    "correctLabel": "A",
+    "explanationId": "Pertanyaan menanyakan nama (叫什么名字). Jawaban yang tepat memperkenalkan nama dengan pola 我叫……，sehingga 我叫王明 benar.",
+    "vocab": [
+      { "hanzi": "名字", "pinyin": "míngzi", "meaningId": "nama", "level": 1 },
+      { "hanzi": "叫", "pinyin": "jiào", "meaningId": "bernama / memanggil", "level": 1 }
+    ]
+  },
+  {
+    "id": 2,
+    "level": 1,
+    "format": "reading_gap_fill",
+    "body": "我（）学生。",
+    "choices": [
+      { "label": "A", "hanzi": "是" },
+      { "label": "B", "hanzi": "在" },
+      { "label": "C", "hanzi": "有" },
+      { "label": "D", "hanzi": "不" }
+    ],
+    "correctLabel": "A",
+    "explanationId": "Untuk menyatakan identitas dipakai kata kerja 是. Pola 我是学生 berarti saya adalah seorang siswa.",
+    "vocab": [
+      { "hanzi": "是", "pinyin": "shì", "meaningId": "adalah", "level": 1 },
+      { "hanzi": "学生", "pinyin": "xuésheng", "meaningId": "siswa / murid", "level": 1 }
+    ]
+  },
+  {
+    "id": 3,
+    "level": 1,
+    "format": "listening_dialogue_choice",
+    "body": "他今天去哪儿？",
+    "readingText": "男：你今天去哪儿？女：我去学校。",
+    "choices": [
+      { "label": "A", "hanzi": "学校" },
+      { "label": "B", "hanzi": "商店" },
+      { "label": "C", "hanzi": "家" },
+      { "label": "D", "hanzi": "医院" }
+    ],
+    "correctLabel": "A",
+    "explanationId": "Dalam dialog, perempuan menjawab 我去学校 (saya pergi ke sekolah), maka jawaban yang benar adalah 学校.",
+    "vocab": [
+      { "hanzi": "学校", "pinyin": "xuéxiào", "meaningId": "sekolah", "level": 1 },
+      { "hanzi": "去", "pinyin": "qù", "meaningId": "pergi", "level": 1 }
+    ]
+  },
+  {
+    "id": 4,
+    "level": 1,
+    "format": "reading_choice",
+    "body": "现在几点？",
+    "readingText": "现在是八点。",
+    "choices": [
+      { "label": "A", "hanzi": "三点" },
+      { "label": "B", "hanzi": "五点" },
+      { "label": "C", "hanzi": "八点" },
+      { "label": "D", "hanzi": "十点" }
+    ],
+    "correctLabel": "C",
+    "explanationId": "Teks menyebutkan 现在是八点 (sekarang pukul delapan), sehingga jawaban yang benar adalah 八点.",
+    "vocab": [
+      { "hanzi": "现在", "pinyin": "xiànzài", "meaningId": "sekarang", "level": 1 },
+      { "hanzi": "点", "pinyin": "diǎn", "meaningId": "jam (penunjuk waktu)", "level": 1 }
+    ]
+  },
+  {
+    "id": 5,
+    "level": 1,
+    "format": "writing_reorder",
+    "body": "请把下面的词语排成正确的句子：我　喜欢　苹果",
+    "choices": [
+      { "label": "A", "hanzi": "我喜欢苹果。" },
+      { "label": "B", "hanzi": "苹果喜欢我。" },
+      { "label": "C", "hanzi": "喜欢我苹果。" },
+      { "label": "D", "hanzi": "我苹果喜欢。" }
+    ],
+    "correctLabel": "A",
+    "explanationId": "Susunan kalimat Mandarin mengikuti pola subjek-predikat-objek, sehingga 我喜欢苹果 (saya suka apel) adalah urutan yang benar.",
+    "vocab": [
+      { "hanzi": "喜欢", "pinyin": "xǐhuan", "meaningId": "suka", "level": 1 },
+      { "hanzi": "苹果", "pinyin": "píngguǒ", "meaningId": "apel", "level": 1 }
+    ]
+  },
+  {
+    "id": 6,
+    "level": 2,
+    "format": "reading_gap_fill",
+    "body": "今天天气很好，我们一起去（）吧。",
+    "choices": [
+      { "label": "A", "hanzi": "公园" },
+      { "label": "B", "hanzi": "医院" },
+      { "label": "C", "hanzi": "教室" },
+      { "label": "D", "hanzi": "银行" }
+    ],
+    "correctLabel": "A",
+    "explanationId": "Cuaca yang baik cocok untuk pergi ke tempat terbuka. Di antara pilihan, 公园 (taman) paling sesuai dengan ajakan bersama.",
+    "vocab": [
+      { "hanzi": "天气", "pinyin": "tiānqì", "meaningId": "cuaca", "level": 2 },
+      { "hanzi": "公园", "pinyin": "gōngyuán", "meaningId": "taman", "level": 2 }
+    ]
+  },
+  {
+    "id": 7,
+    "level": 2,
+    "format": "reading_choice",
+    "body": "妹妹喜欢吃什么？",
+    "readingText": "我妹妹很喜欢吃水果，尤其是西瓜。",
+    "choices": [
+      { "label": "A", "hanzi": "西瓜" },
+      { "label": "B", "hanzi": "米饭" },
+      { "label": "C", "hanzi": "面包" },
+      { "label": "D", "hanzi": "鸡蛋" }
+    ],
+    "correctLabel": "A",
+    "explanationId": "Teks menyebutkan adik perempuan suka buah, terutama 西瓜 (semangka), jadi jawaban yang benar adalah 西瓜.",
+    "vocab": [
+      { "hanzi": "西瓜", "pinyin": "xīguā", "meaningId": "semangka", "level": 2 },
+      { "hanzi": "水果", "pinyin": "shuǐguǒ", "meaningId": "buah", "level": 2 }
+    ]
+  },
+  {
+    "id": 8,
+    "level": 2,
+    "format": "listening_dialogue_choice",
+    "body": "女的想买什么？",
+    "readingText": "男：你要买什么？女：我想买一件红色的衣服。",
+    "choices": [
+      { "label": "A", "hanzi": "衣服" },
+      { "label": "B", "hanzi": "鞋子" },
+      { "label": "C", "hanzi": "帽子" },
+      { "label": "D", "hanzi": "手机" }
+    ],
+    "correctLabel": "A",
+    "explanationId": "Perempuan berkata 我想买一件红色的衣服 (saya ingin membeli baju merah), maka jawabannya 衣服.",
+    "vocab": [
+      { "hanzi": "衣服", "pinyin": "yīfu", "meaningId": "pakaian / baju", "level": 2 },
+      { "hanzi": "红色", "pinyin": "hóngsè", "meaningId": "warna merah", "level": 2 }
+    ]
+  },
+  {
+    "id": 9,
+    "level": 2,
+    "format": "reading_sentence_match",
+    "body": "他每天早上六点起床，然后去跑步。根据这句话，可以知道：",
+    "choices": [
+      { "label": "A", "hanzi": "他早上运动。" },
+      { "label": "B", "hanzi": "他晚上工作。" },
+      { "label": "C", "hanzi": "他不喜欢运动。" },
+      { "label": "D", "hanzi": "他六点睡觉。" }
+    ],
+    "correctLabel": "A",
+    "explanationId": "Kalimat menyebut ia bangun pukul enam pagi lalu lari pagi (跑步), jadi ia berolahraga di pagi hari.",
+    "vocab": [
+      { "hanzi": "起床", "pinyin": "qǐchuáng", "meaningId": "bangun tidur", "level": 2 },
+      { "hanzi": "跑步", "pinyin": "pǎobù", "meaningId": "berlari / lari pagi", "level": 2 }
+    ]
+  },
+  {
+    "id": 10,
+    "level": 2,
+    "format": "writing_reorder",
+    "body": "请排成正确的句子：他　在　房间　里　看书",
+    "choices": [
+      { "label": "A", "hanzi": "他在房间里看书。" },
+      { "label": "B", "hanzi": "他看书在房间里。" },
+      { "label": "C", "hanzi": "房间里他看书在。" },
+      { "label": "D", "hanzi": "看书他在房间里。" }
+    ],
+    "correctLabel": "A",
+    "explanationId": "Keterangan tempat 在房间里 diletakkan sebelum kata kerja, sehingga urutan yang benar adalah 他在房间里看书。",
+    "vocab": [
+      { "hanzi": "房间", "pinyin": "fángjiān", "meaningId": "kamar", "level": 2 },
+      { "hanzi": "看书", "pinyin": "kàn shū", "meaningId": "membaca buku", "level": 2 }
+    ]
+  },
+  {
+    "id": 11,
+    "level": 3,
+    "format": "reading_choice",
+    "body": "根据这段话，可以知道什么？",
+    "readingText": "小李这次考试考得很好，因为他每天都认真复习，从来不迟到。",
+    "choices": [
+      { "label": "A", "hanzi": "小李很努力。" },
+      { "label": "B", "hanzi": "小李很懒。" },
+      { "label": "C", "hanzi": "小李常常迟到。" },
+      { "label": "D", "hanzi": "小李没考好。" }
+    ],
+    "correctLabel": "A",
+    "explanationId": "Teks menyebut Xiao Li belajar dengan tekun setiap hari dan tidak pernah terlambat, menunjukkan ia sangat rajin (努力).",
+    "vocab": [
+      { "hanzi": "复习", "pinyin": "fùxí", "meaningId": "mengulang pelajaran", "level": 3 },
+      { "hanzi": "努力", "pinyin": "nǔlì", "meaningId": "berusaha keras / rajin", "level": 3 }
+    ]
+  },
+  {
+    "id": 12,
+    "level": 3,
+    "format": "reading_gap_fill",
+    "body": "虽然今天下雨，（）我还是决定去爬山。",
+    "choices": [
+      { "label": "A", "hanzi": "但是" },
+      { "label": "B", "hanzi": "因为" },
+      { "label": "C", "hanzi": "所以" },
+      { "label": "D", "hanzi": "如果" }
+    ],
+    "correctLabel": "A",
+    "explanationId": "Pola 虽然……但是…… menyatakan hubungan pertentangan, sehingga kata yang tepat untuk mengisi adalah 但是.",
+    "vocab": [
+      { "hanzi": "虽然", "pinyin": "suīrán", "meaningId": "meskipun", "level": 3 },
+      { "hanzi": "决定", "pinyin": "juédìng", "meaningId": "memutuskan", "level": 3 }
+    ]
+  },
+  {
+    "id": 13,
+    "level": 3,
+    "format": "listening_dialogue_choice",
+    "body": "男的打算怎么去机场？",
+    "readingText": "女：你打算怎么去机场？男：我想坐地铁去，又快又便宜。",
+    "choices": [
+      { "label": "A", "hanzi": "坐地铁" },
+      { "label": "B", "hanzi": "坐飞机" },
+      { "label": "C", "hanzi": "开车" },
+      { "label": "D", "hanzi": "走路" }
+    ],
+    "correctLabel": "A",
+    "explanationId": "Laki-laki berkata ingin naik 地铁 (kereta bawah tanah) karena cepat dan murah, jadi jawabannya 坐地铁.",
+    "vocab": [
+      { "hanzi": "机场", "pinyin": "jīchǎng", "meaningId": "bandara", "level": 3 },
+      { "hanzi": "地铁", "pinyin": "dìtiě", "meaningId": "kereta bawah tanah", "level": 3 }
+    ]
+  },
+  {
+    "id": 14,
+    "level": 3,
+    "format": "reading_sentence_match",
+    "body": "请选出与下面句子意思相同的一项：这家饭馆的菜又好吃又便宜。",
+    "choices": [
+      { "label": "A", "hanzi": "这家饭馆又好又便宜。" },
+      { "label": "B", "hanzi": "这家饭馆很贵。" },
+      { "label": "C", "hanzi": "这家饭馆不好吃。" },
+      { "label": "D", "hanzi": "这家饭馆离这儿很远。" }
+    ],
+    "correctLabel": "A",
+    "explanationId": "Kalimat asal berarti masakannya enak sekaligus murah, maka pilihan yang sepadan adalah 又好又便宜。",
+    "vocab": [
+      { "hanzi": "饭馆", "pinyin": "fànguǎn", "meaningId": "rumah makan", "level": 3 },
+      { "hanzi": "便宜", "pinyin": "piányi", "meaningId": "murah", "level": 3 }
+    ]
+  },
+  {
+    "id": 15,
+    "level": 4,
+    "format": "reading_choice",
+    "body": "这段话主要谈的是什么？",
+    "readingText": "随着科技的发展，越来越多的人选择在网上购物，因为这样既方便又能节省时间。",
+    "choices": [
+      { "label": "A", "hanzi": "网上购物的好处" },
+      { "label": "B", "hanzi": "科技的坏处" },
+      { "label": "C", "hanzi": "购物的危险" },
+      { "label": "D", "hanzi": "时间不够用" }
+    ],
+    "correctLabel": "A",
+    "explanationId": "Teks menjelaskan belanja daring semakin populer karena praktis dan hemat waktu, jadi temanya adalah keuntungan belanja online.",
+    "vocab": [
+      { "hanzi": "购物", "pinyin": "gòuwù", "meaningId": "berbelanja", "level": 4 },
+      { "hanzi": "方便", "pinyin": "fāngbiàn", "meaningId": "praktis / mudah", "level": 4 }
+    ]
+  },
+  {
+    "id": 16,
+    "level": 4,
+    "format": "reading_gap_fill",
+    "body": "他做事非常认真，对工作的态度也很（）。",
+    "choices": [
+      { "label": "A", "hanzi": "严格" },
+      { "label": "B", "hanzi": "随便" },
+      { "label": "C", "hanzi": "马虎" },
+      { "label": "D", "hanzi": "懒惰" }
+    ],
+    "correctLabel": "A",
+    "explanationId": "Kalimat memuji sikap kerjanya yang serius, sehingga kata yang searti dan positif adalah 严格 (ketat / disiplin).",
+    "vocab": [
+      { "hanzi": "态度", "pinyin": "tàidu", "meaningId": "sikap", "level": 4 },
+      { "hanzi": "严格", "pinyin": "yángé", "meaningId": "ketat / disiplin", "level": 4 }
+    ]
+  },
+  {
+    "id": 17,
+    "level": 4,
+    "format": "listening_dialogue_choice",
+    "body": "女的觉得这部电影怎么样？",
+    "readingText": "男：你觉得昨天那部电影怎么样？女：故事很感人，演员也演得特别好。",
+    "choices": [
+      { "label": "A", "hanzi": "很精彩" },
+      { "label": "B", "hanzi": "很无聊" },
+      { "label": "C", "hanzi": "太长了" },
+      { "label": "D", "hanzi": "没意思" }
+    ],
+    "correctLabel": "A",
+    "explanationId": "Perempuan memuji cerita yang mengharukan dan akting yang bagus, menunjukkan ia menilai film itu 很精彩 (sangat bagus).",
+    "vocab": [
+      { "hanzi": "感人", "pinyin": "gǎnrén", "meaningId": "mengharukan", "level": 4 },
+      { "hanzi": "精彩", "pinyin": "jīngcǎi", "meaningId": "memukau / bagus", "level": 4 }
+    ]
+  },
+  {
+    "id": 18,
+    "level": 4,
+    "format": "writing_reorder",
+    "body": "请排成正确的句子：这个　问题　解决　得　很　顺利",
+    "choices": [
+      { "label": "A", "hanzi": "这个问题解决得很顺利。" },
+      { "label": "B", "hanzi": "这个问题很顺利解决得。" },
+      { "label": "C", "hanzi": "解决得这个问题很顺利。" },
+      { "label": "D", "hanzi": "很顺利这个问题解决得。" }
+    ],
+    "correctLabel": "A",
+    "explanationId": "Komplemen tingkat 得很顺利 diletakkan setelah kata kerja 解决, sehingga urutannya 这个问题解决得很顺利。",
+    "vocab": [
+      { "hanzi": "解决", "pinyin": "jiějué", "meaningId": "menyelesaikan", "level": 4 },
+      { "hanzi": "顺利", "pinyin": "shùnlì", "meaningId": "lancar", "level": 4 }
+    ]
+  },
+  {
+    "id": 19,
+    "level": 5,
+    "format": "reading_choice",
+    "body": "作者对这件事的态度是怎样的？",
+    "readingText": "面对困难时，他从不轻易放弃，而是积极地寻找解决办法，这种精神值得我们学习。",
+    "choices": [
+      { "label": "A", "hanzi": "积极乐观" },
+      { "label": "B", "hanzi": "消极悲观" },
+      { "label": "C", "hanzi": "无所谓" },
+      { "label": "D", "hanzi": "害怕逃避" }
+    ],
+    "correctLabel": "A",
+    "explanationId": "Teks memuji sikap tidak mudah menyerah dan aktif mencari solusi, mencerminkan sikap 积极乐观 (positif dan optimis).",
+    "vocab": [
+      { "hanzi": "放弃", "pinyin": "fàngqì", "meaningId": "menyerah", "level": 5 },
+      { "hanzi": "积极", "pinyin": "jījí", "meaningId": "aktif / positif", "level": 5 }
+    ]
+  },
+  {
+    "id": 20,
+    "level": 5,
+    "format": "reading_gap_fill",
+    "body": "经过反复讨论，他们终于（）了一个合理的方案。",
+    "choices": [
+      { "label": "A", "hanzi": "制定" },
+      { "label": "B", "hanzi": "取消" },
+      { "label": "C", "hanzi": "放弃" },
+      { "label": "D", "hanzi": "拒绝" }
+    ],
+    "correctLabel": "A",
+    "explanationId": "Setelah diskusi berulang, sebuah rencana berhasil disusun, sehingga kata kerja yang cocok dengan 方案 adalah 制定 (menyusun).",
+    "vocab": [
+      { "hanzi": "讨论", "pinyin": "tǎolùn", "meaningId": "berdiskusi", "level": 5 },
+      { "hanzi": "制定", "pinyin": "zhìdìng", "meaningId": "menyusun / menetapkan", "level": 5 }
+    ]
+  },
+  {
+    "id": 21,
+    "level": 5,
+    "format": "listening_dialogue_choice",
+    "body": "关于这位教授，可以知道什么？",
+    "readingText": "男：听说那位教授不仅学问深，而且非常关心学生。女：是啊，大家都很尊敬他。",
+    "choices": [
+      { "label": "A", "hanzi": "受人尊敬" },
+      { "label": "B", "hanzi": "不负责任" },
+      { "label": "C", "hanzi": "很少上课" },
+      { "label": "D", "hanzi": "脾气很坏" }
+    ],
+    "correctLabel": "A",
+    "explanationId": "Dialog menyebut profesor itu berilmu dalam dan perhatian, dan semua orang menghormatinya, jadi ia 受人尊敬 (dihormati).",
+    "vocab": [
+      { "hanzi": "教授", "pinyin": "jiàoshòu", "meaningId": "profesor", "level": 5 },
+      { "hanzi": "尊敬", "pinyin": "zūnjìng", "meaningId": "menghormati", "level": 5 }
+    ]
+  },
+  {
+    "id": 22,
+    "level": 5,
+    "format": "reading_sentence_match",
+    "body": "请选出意思最接近的一句：他总是把别人的事放在第一位。",
+    "choices": [
+      { "label": "A", "hanzi": "他很为别人着想。" },
+      { "label": "B", "hanzi": "他很自私。" },
+      { "label": "C", "hanzi": "他不关心别人。" },
+      { "label": "D", "hanzi": "他喜欢命令别人。" }
+    ],
+    "correctLabel": "A",
+    "explanationId": "Mendahulukan urusan orang lain berarti penuh perhatian terhadap sesama, sehingga maknanya 很为别人着想。",
+    "vocab": [
+      { "hanzi": "着想", "pinyin": "zhuóxiǎng", "meaningId": "memikirkan kepentingan (orang lain)", "level": 5 },
+      { "hanzi": "自私", "pinyin": "zìsī", "meaningId": "egois", "level": 5 }
+    ]
+  },
+  {
+    "id": 23,
+    "level": 6,
+    "format": "reading_choice",
+    "body": "这段文字主要想说明什么道理？",
+    "readingText": "做任何事情都不能只看眼前的利益，而应该有长远的眼光，否则很难取得真正的成功。",
+    "choices": [
+      { "label": "A", "hanzi": "做事要有长远的眼光" },
+      { "label": "B", "hanzi": "眼前的利益最重要" },
+      { "label": "C", "hanzi": "成功完全靠运气" },
+      { "label": "D", "hanzi": "不必为将来打算" }
+    ],
+    "correctLabel": "A",
+    "explanationId": "Teks menekankan jangan hanya melihat keuntungan sesaat tetapi harus berpandangan jauh ke depan, jadi intinya 做事要有长远的眼光。",
+    "vocab": [
+      { "hanzi": "利益", "pinyin": "lìyì", "meaningId": "keuntungan / kepentingan", "level": 6 },
+      { "hanzi": "眼光", "pinyin": "yǎnguāng", "meaningId": "wawasan / pandangan", "level": 6 }
+    ]
+  },
+  {
+    "id": 24,
+    "level": 6,
+    "format": "reading_gap_fill",
+    "body": "这篇文章语言优美，内容深刻，（）了作者深厚的文学功底。",
+    "choices": [
+      { "label": "A", "hanzi": "体现" },
+      { "label": "B", "hanzi": "掩盖" },
+      { "label": "C", "hanzi": "削弱" },
+      { "label": "D", "hanzi": "否定" }
+    ],
+    "correctLabel": "A",
+    "explanationId": "Bahasa yang indah dan isi yang mendalam menunjukkan kemampuan sastra penulis, maka kata yang tepat adalah 体现 (mencerminkan).",
+    "vocab": [
+      { "hanzi": "深刻", "pinyin": "shēnkè", "meaningId": "mendalam", "level": 6 },
+      { "hanzi": "体现", "pinyin": "tǐxiàn", "meaningId": "mencerminkan", "level": 6 }
+    ]
+  },
+  {
+    "id": 25,
+    "level": 6,
+    "format": "listening_dialogue_choice",
+    "body": "女的对这个建议持什么态度？",
+    "readingText": "男：我建议公司增加员工的培训机会。女：这个想法很好，不过还需要考虑成本问题。",
+    "choices": [
+      { "label": "A", "hanzi": "基本赞成" },
+      { "label": "B", "hanzi": "完全反对" },
+      { "label": "C", "hanzi": "毫不在意" },
+      { "label": "D", "hanzi": "非常生气" }
+    ],
+    "correctLabel": "A",
+    "explanationId": "Perempuan memuji idenya tetapi mengingatkan soal biaya, menunjukkan sikap 基本赞成 (pada dasarnya setuju) dengan catatan.",
+    "vocab": [
+      { "hanzi": "建议", "pinyin": "jiànyì", "meaningId": "saran / menyarankan", "level": 6 },
+      { "hanzi": "成本", "pinyin": "chéngběn", "meaningId": "biaya / ongkos", "level": 6 }
+    ]
+  },
+  {
+    "id": 26,
+    "level": 6,
+    "format": "reading_sentence_match",
+    "body": "请选出与画线句子意思一致的选项：他的成功并非偶然。",
+    "choices": [
+      { "label": "A", "hanzi": "他的成功是必然的。" },
+      { "label": "B", "hanzi": "他的成功只是运气。" },
+      { "label": "C", "hanzi": "他其实没有成功。" },
+      { "label": "D", "hanzi": "他的成功很意外。" }
+    ],
+    "correctLabel": "A",
+    "explanationId": "并非偶然 berarti bukan kebetulan, yang setara dengan 必然 (pasti / niscaya), sehingga jawabannya 他的成功是必然的。",
+    "vocab": [
+      { "hanzi": "偶然", "pinyin": "ǒurán", "meaningId": "kebetulan", "level": 6 },
+      { "hanzi": "必然", "pinyin": "bìrán", "meaningId": "pasti / niscaya", "level": 6 }
+    ]
+  }
+]
+
