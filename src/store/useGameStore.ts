@@ -47,6 +47,7 @@ export const useGameStore = create<GameState>()(
         set({
           hearts: MAX_HEARTS,
           score: 0,
+          hintsRemaining: MAX_HINTS,
         });
       },
 

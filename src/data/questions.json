@@ -14,7 +14,7 @@
     "id": 2,
     "type": "manual",
     "instruction": "写出\"谢谢\"的拼音（不带声调）：",
-    "hintContent": "谢谢 的拼音是 xiexie。",
+    "hintContent": "谢谢 有两个音节，第一个音节以 x 开头。",
     "correctManualAnswer": "xiexie"
   },
   {
@@ -38,7 +38,7 @@
     "id": 4,
     "type": "manual",
     "instruction": "写出\"舒服\"的拼音（不带声调）：",
-    "hintContent": "舒服 的拼音是 shufu。",
+    "hintContent": "舒服 有两个音节，第一个音节以 sh 开头。",
     "correctManualAnswer": "shufu"
   },
   {
@@ -89,7 +89,7 @@
     "id": 9,
     "type": "manual",
     "instruction": "写出\"感冒\"的拼音（不带声调）：",
-    "hintContent": "感冒 的拼音是 ganmao。",
+    "hintContent": "感冒 有两个音节，第一个音节以 g 开头。",
     "correctManualAnswer": "ganmao"
   },
   {
@@ -126,7 +126,7 @@
     "id": 12,
     "type": "manual",
     "instruction": "写出\"再见\"的拼音（不带声调）：",
-    "hintContent": "再见 的拼音是 zaijian。",
+    "hintContent": "再见 有两个音节，第一个音节以 z 开头。",
     "correctManualAnswer": "zaijian"
   },
   {
@@ -159,7 +159,7 @@
     "id": 15,
     "type": "manual",
     "instruction": "写出\"附近\"的拼音（不带声调）：",
-    "hintContent": "附近 的拼音是 fujin。",
+    "hintContent": "附近 有两个音节，第一个音节以 f 开头。",
     "correctManualAnswer": "fujin"
   },
   {
@@ -196,7 +196,7 @@
     "id": 18,
     "type": "manual",
     "instruction": "写出\"其实\"的拼音（不带声调）：",
-    "hintContent": "其实 的拼音是 qishi。",
+    "hintContent": "其实 有两个音节，第一个音节以 q 开头。",
     "correctManualAnswer": "qishi"
   },
   {
@@ -247,7 +247,7 @@
     "id": 23,
     "type": "manual",
     "instruction": "写出\"声音\"的拼音（不带声调）：",
-    "hintContent": "声音 的拼音是 shengyin。",
+    "hintContent": "声音 有两个音节，第一个音节以 sh 开头。",
     "correctManualAnswer": "shengyin"
   },
   {
@@ -282,7 +282,7 @@
     "id": 26,
     "type": "manual",
     "instruction": "写出\"一直\"的拼音（不带声调）：",
-    "hintContent": "一直 的拼音是 yizhi。",
+    "hintContent": "一直 有两个音节，第一个音节以 y 开头。",
     "correctManualAnswer": "yizhi"
   },
   {
@@ -333,7 +333,7 @@
     "id": 31,
     "type": "manual",
     "instruction": "写出\"被\"的拼音（不带声调）：",
-    "hintContent": "被 的拼音是 bei。",
+    "hintContent": "被 有一个音节，以 b 开头。",
     "correctManualAnswer": "bei"
   },
   {
@@ -368,7 +368,7 @@
     "id": 34,
     "type": "manual",
     "instruction": "写出\"爱好\"的拼音（不带声调）：",
-    "hintContent": "爱好 的拼音是 aihao。",
+    "hintContent": "爱好 有两个音节，第一个音节以 a 开头。",
     "correctManualAnswer": "aihao"
   },
   {
@@ -495,7 +495,7 @@
     "id": 45,
     "type": "manual",
     "instruction": "写出\"衣服\"的拼音（不带声调）：",
-    "hintContent": "衣服 读作 yīfu。",
+    "hintContent": "衣服 有两个音节，第一个音节以 y 开头。",
     "correctManualAnswer": "yifu"
   },
   {

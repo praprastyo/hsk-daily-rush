@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import type { Question } from '../../../types/game';
 
@@ -15,6 +15,11 @@ export function ManualInputQuestion({
   setManualInputValue, setIsManualInputCorrect,
 }: Props) {
   const [showHint, setShowHint] = useState(false);
+
+  // Reset hint visibility when question changes
+  useEffect(() => {
+    setShowHint(false);
+  }, [question.id]);
 
   return (
     <motion.div
