@@ -163,7 +163,6 @@ export function useGameLogic() {
   }, [triggerHaptic, addScore]);
 
   const nextQuestion = useCallback(() => {
-    if (isTransitioning.current) return;
     isTransitioning.current = true;
     const idx = idxRef.current;
     const qs = questionsRef.current;
@@ -217,6 +216,7 @@ export function useGameLogic() {
     } else if (question.type === 'manual') {
       const sanitized = manualInputValue.trim().toLowerCase();
       if (sanitized === question.correctManualAnswer) {
+        isTransitioning.current = true;
         setIsManualInputCorrect(true);
         triggerSuccessEffect();
         setTimeout(() => nextQuestion(), 800);
