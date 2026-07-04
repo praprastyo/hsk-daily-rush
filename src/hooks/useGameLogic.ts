@@ -115,6 +115,11 @@ export function useGameLogic() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [hearts, gameState]);
 
+  // Release transition guard once the new question index has committed
+  useEffect(() => {
+    isTransitioning.current = false;
+  }, [currentQuestionIdx]);
+
   // Typing simulation for conversation questions
   useEffect(() => {
     if (gameState === 'playing' && questions[currentQuestionIdx]?.type === 'conversation') {
@@ -171,8 +176,6 @@ export function useGameLogic() {
       incrementStreak();
       if (timerIntervalRef.current) clearInterval(timerIntervalRef.current);
     }
-    // ponytail: 300ms debounce window; increase if user has slow device
-    setTimeout(() => { isTransitioning.current = false; }, 300);
   }, [resetQuestionStates, incrementStreak]);
 
   const startMode = useCallback(
