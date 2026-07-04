@@ -478,6 +478,576 @@
       { "hanzi": "偶然", "pinyin": "ǒurán", "meaningId": "kebetulan", "level": 6 },
       { "hanzi": "必然", "pinyin": "bìrán", "meaningId": "pasti / niscaya", "level": 6 }
     ]
+  },
+  {
+    "id": 27,
+    "level": 1,
+    "format": "reading_choice",
+    "body": "他是我的朋友。",
+    "choices": [
+      { "label": "A", "hanzi": "朋友" },
+      { "label": "B", "hanzi": "老师" },
+      { "label": "C", "hanzi": "医生" },
+      { "label": "D", "hanzi": "学生" }
+    ],
+    "correctLabel": "A",
+    "explanationId": "Kalimat menyebutkan dia adalah teman saya (朋友), jadi kata yang tepat adalah 朋友.",
+    "vocab": [
+      { "hanzi": "朋友", "pinyin": "péngyou", "meaningId": "teman", "level": 1 },
+      { "hanzi": "他", "pinyin": "tā", "meaningId": "dia (laki-laki)", "level": 1 }
+    ]
+  },
+  {
+    "id": 28,
+    "level": 1,
+    "format": "reading_gap_fill",
+    "body": "我不（）咖啡。",
+    "choices": [
+      { "label": "A", "hanzi": "喝" },
+      { "label": "B", "hanzi": "吃" },
+      { "label": "C", "hanzi": "看" },
+      { "label": "D", "hanzi": "买" }
+    ],
+    "correctLabel": "A",
+    "explanationId": "Untuk minuman dipakai kata kerja 喝. Pola 不喝咖啡 berarti tidak minum kopi.",
+    "vocab": [
+      { "hanzi": "喝", "pinyin": "hē", "meaningId": "minum", "level": 1 },
+      { "hanzi": "咖啡", "pinyin": "kāfēi", "meaningId": "kopi", "level": 1 }
+    ]
+  },
+  {
+    "id": 29,
+    "level": 1,
+    "format": "listening_dialogue_choice",
+    "body": "女的想喝什么？",
+    "readingText": "男：你想喝什么？女：我想喝茶。",
+    "choices": [
+      { "label": "A", "hanzi": "茶" },
+      { "label": "B", "hanzi": "咖啡" },
+      { "label": "C", "hanzi": "水" },
+      { "label": "D", "hanzi": "牛奶" }
+    ],
+    "correctLabel": "A",
+    "explanationId": "Perempuan menjawab 我想喝茶 (saya ingin minum teh), jadi jawabannya 茶.",
+    "vocab": [
+      { "hanzi": "茶", "pinyin": "chá", "meaningId": "teh", "level": 1 },
+      { "hanzi": "想", "pinyin": "xiǎng", "meaningId": "ingin", "level": 1 }
+    ]
+  },
+  {
+    "id": 30,
+    "level": 1,
+    "format": "reading_choice",
+    "body": "这是我妈妈。",
+    "choices": [
+      { "label": "A", "hanzi": "妈妈" },
+      { "label": "B", "hanzi": "爸爸" },
+      { "label": "C", "hanzi": "老师" },
+      { "label": "D", "hanzi": "医生" }
+    ],
+    "correctLabel": "A",
+    "explanationId": "Kalimat ini menyatakan bahwa ini adalah ibu saya (妈妈).",
+    "vocab": [
+      { "hanzi": "妈妈", "pinyin": "māma", "meaningId": "ibu / mama", "level": 1 },
+      { "hanzi": "这", "pinyin": "zhè", "meaningId": "ini", "level": 1 }
+    ]
+  },
+  {
+    "id": 31,
+    "level": 1,
+    "format": "reading_gap_fill",
+    "body": "我要买一（）书。",
+    "choices": [
+      { "label": "A", "hanzi": "本" },
+      { "label": "B", "hanzi": "个" },
+      { "label": "C", "hanzi": "杯" },
+      { "label": "D", "hanzi": "只" }
+    ],
+    "correctLabel": "A",
+    "explanationId": "Penjelas untuk buku (书) menggunakan kata satuan 本.",
+    "vocab": [
+      { "hanzi": "本", "pinyin": "běn", "meaningId": "satuan untuk buku", "level": 1 },
+      { "hanzi": "书", "pinyin": "shū", "meaningId": "buku", "level": 1 }
+    ]
+  },
+  {
+    "id": 32,
+    "level": 2,
+    "format": "reading_choice",
+    "body": "你怎么去学校？",
+    "readingText": "我每天骑自行车去学校，大概要二十分钟。",
+    "choices": [
+      { "label": "A", "hanzi": "骑自行车" },
+      { "label": "B", "hanzi": "坐公共汽车" },
+      { "label": "C", "hanzi": "走路" },
+      { "label": "D", "hanzi": "坐地铁" }
+    ],
+    "correctLabel": "A",
+    "explanationId": "Teks menyebutkan ia naik sepeda (骑自行车) setiap hari, jadi jawabannya 骑自行车.",
+    "vocab": [
+      { "hanzi": "骑", "pinyin": "qí", "meaningId": "mengendarai", "level": 2 },
+      { "hanzi": "自行车", "pinyin": "zìxíngchē", "meaningId": "sepeda", "level": 2 }
+    ]
+  },
+  {
+    "id": 33,
+    "level": 2,
+    "format": "reading_gap_fill",
+    "body": "我昨天买了一件新（）。",
+    "choices": [
+      { "label": "A", "hanzi": "衣服" },
+      { "label": "B", "hanzi": "书" },
+      { "label": "C", "hanzi": "电脑" },
+      { "label": "D", "hanzi": "桌子" }
+    ],
+    "correctLabel": "A",
+    "explanationId": "Kata satuan 件 biasanya digunakan untuk pakaian (衣服).",
+    "vocab": [
+      { "hanzi": "衣服", "pinyin": "yīfu", "meaningId": "pakaian", "level": 2 },
+      { "hanzi": "件", "pinyin": "jiàn", "meaningId": "satuan untuk pakaian", "level": 2 }
+    ]
+  },
+  {
+    "id": 34,
+    "level": 2,
+    "format": "listening_dialogue_choice",
+    "body": "男的今天为什么迟到了？",
+    "readingText": "女：你今天怎么迟到了？男：对不起，路上堵车了。",
+    "choices": [
+      { "label": "A", "hanzi": "堵车" },
+      { "label": "B", "hanzi": "起晚了" },
+      { "label": "C", "hanzi": "生病了" },
+      { "label": "D", "hanzi": "忘带东西" }
+    ],
+    "correctLabel": "A",
+    "explanationId": "Laki-laki menjawab 路上堵车了 (di jalan macet), jadi alasan keterlambatannya adalah 堵车.",
+    "vocab": [
+      { "hanzi": "堵车", "pinyin": "dǔchē", "meaningId": "macet", "level": 2 },
+      { "hanzi": "迟到", "pinyin": "chídào", "meaningId": "terlambat", "level": 2 }
+    ]
+  },
+  {
+    "id": 35,
+    "level": 2,
+    "format": "reading_sentence_match",
+    "body": "他家离学校很远，每天要坐一个小时的公共汽车。根据这句话，可以知道：",
+    "choices": [
+      { "label": "A", "hanzi": "他家离学校很远。" },
+      { "label": "B", "hanzi": "他家离学校很近。" },
+      { "label": "C", "hanzi": "他走路去学校。" },
+      { "label": "D", "hanzi": "他不去学校。" }
+    ],
+    "correctLabel": "A",
+    "explanationId": "Kalimat menyatakan rumahnya jauh dari sekolah (很远) dan harus naik bus satu jam.",
+    "vocab": [
+      { "hanzi": "离", "pinyin": "lí", "meaningId": "dari (jarak)", "level": 2 },
+      { "hanzi": "远", "pinyin": "yuǎn", "meaningId": "jauh", "level": 2 }
+    ]
+  },
+  {
+    "id": 36,
+    "level": 2,
+    "format": "writing_reorder",
+    "body": "请排成正确的句子：我　想　买　一件　红色的　衣服",
+    "choices": [
+      { "label": "A", "hanzi": "我想买一件红色的衣服。" },
+      { "label": "B", "hanzi": "我想一件买红色的衣服。" },
+      { "label": "C", "hanzi": "一件红色的衣服我想买。" },
+      { "label": "D", "hanzi": "红色的衣服我想一件买。" }
+    ],
+    "correctLabel": "A",
+    "explanationId": "Urutan yang benar: subjek (我) + 想 + kata kerja (买) + objek dengan kata satuan (一件红色的衣服).",
+    "vocab": [
+      { "hanzi": "红色", "pinyin": "hóngsè", "meaningId": "warna merah", "level": 2 },
+      { "hanzi": "件", "pinyin": "jiàn", "meaningId": "satuan (pakaian)", "level": 2 }
+    ]
+  },
+  {
+    "id": 37,
+    "level": 3,
+    "format": "reading_choice",
+    "body": "你觉得哪个季节最好？",
+    "readingText": "我觉得春天最好，因为天气不冷也不热，花也开了，很漂亮。",
+    "choices": [
+      { "label": "A", "hanzi": "春天" },
+      { "label": "B", "hanzi": "夏天" },
+      { "label": "C", "hanzi": "秋天" },
+      { "label": "D", "hanzi": "冬天" }
+    ],
+    "correctLabel": "A",
+    "explanationId": "Teks menyebutkan ia menyukai musim semi (春天) karena cuacanya nyaman dan bunga bermekaran.",
+    "vocab": [
+      { "hanzi": "春天", "pinyin": "chūntiān", "meaningId": "musim semi", "level": 3 },
+      { "hanzi": "季节", "pinyin": "jìjié", "meaningId": "musim", "level": 3 }
+    ]
+  },
+  {
+    "id": 38,
+    "level": 3,
+    "format": "reading_gap_fill",
+    "body": "我学了三年汉语，（）还是说得不太好。",
+    "choices": [
+      { "label": "A", "hanzi": "但是" },
+      { "label": "B", "hanzi": "所以" },
+      { "label": "C", "hanzi": "而且" },
+      { "label": "D", "hanzi": "如果" }
+    ],
+    "correctLabel": "A",
+    "explanationId": "Kalimat mengandung kontradiksi: sudah belajar tiga tahun TETAPI (但是) masih kurang lancar.",
+    "vocab": [
+      { "hanzi": "还是", "pinyin": "háishi", "meaningId": "masih", "level": 3 },
+      { "hanzi": "但是", "pinyin": "dànshì", "meaningId": "tetapi / namun", "level": 3 }
+    ]
+  },
+  {
+    "id": 39,
+    "level": 3,
+    "format": "writing_reorder",
+    "body": "请排成正确的句子：你　能不能　把　窗户　关上",
+    "choices": [
+      { "label": "A", "hanzi": "你能不能把窗户关上？" },
+      { "label": "B", "hanzi": "你把窗户能不能关上？" },
+      { "label": "C", "hanzi": "把窗户你能不能关上？" },
+      { "label": "D", "hanzi": "关上你能不能把窗户？" }
+    ],
+    "correctLabel": "A",
+    "explanationId": "Pola 把 meletakkan objek (窗户) sebelum kata kerja (关上). Urutan: 能不能 + 把 + objek + kata kerja.",
+    "vocab": [
+      { "hanzi": "把", "pinyin": "bǎ", "meaningId": "kata pembentuk kalimat 把", "level": 3 },
+      { "hanzi": "窗户", "pinyin": "chuānghu", "meaningId": "jendela", "level": 3 }
+    ]
+  },
+  {
+    "id": 40,
+    "level": 3,
+    "format": "reading_sentence_match",
+    "body": "请选出意思最接近的一句：他不但会说汉语，而且说得很好。",
+    "choices": [
+      { "label": "A", "hanzi": "他汉语说得很好。" },
+      { "label": "B", "hanzi": "他不会说汉语。" },
+      { "label": "C", "hanzi": "他只会说一点儿汉语。" },
+      { "label": "D", "hanzi": "他不想说汉语。" }
+    ],
+    "correctLabel": "A",
+    "explanationId": "Pola 不但……而且…… menambahkan penekanan: ia tidak hanya bisa, tapi sangat mahir (说得很好).",
+    "vocab": [
+      { "hanzi": "不但", "pinyin": "búdàn", "meaningId": "tidak hanya", "level": 3 },
+      { "hanzi": "而且", "pinyin": "érqiě", "meaningId": "dan juga / bahkan", "level": 3 }
+    ]
+  },
+  {
+    "id": 41,
+    "level": 3,
+    "format": "listening_dialogue_choice",
+    "body": "女的觉得这个饭店怎么样？",
+    "readingText": "男：你觉得这个饭店怎么样？女：菜的味道还可以，就是服务态度不太好。",
+    "choices": [
+      { "label": "A", "hanzi": "菜好吃但服务差" },
+      { "label": "B", "hanzi": "菜不好吃" },
+      { "label": "C", "hanzi": "服务很好" },
+      { "label": "D", "hanzi": "什么都好" }
+    ],
+    "correctLabel": "A",
+    "explanationId": "Perempuan bilang rasanya lumayan (还可以) tapi pelayanannya kurang baik, jadi jawabannya 菜好吃但服务差.",
+    "vocab": [
+      { "hanzi": "味道", "pinyin": "wèidào", "meaningId": "rasa", "level": 3 },
+      { "hanzi": "服务", "pinyin": "fúwù", "meaningId": "pelayanan", "level": 3 }
+    ]
+  },
+  {
+    "id": 42,
+    "level": 3,
+    "format": "reading_choice",
+    "body": "下面哪个句子是正确的？",
+    "choices": [
+      { "label": "A", "hanzi": "我把作业做完了。" },
+      { "label": "B", "hanzi": "我把作业做完。" },
+      { "label": "C", "hanzi": "我做完了把作业。" },
+      { "label": "D", "hanzi": "把作业我做完了。" }
+    ],
+    "correctLabel": "A",
+    "explanationId": "Pola 把 yang benar: subjek + 把 + objek + kata kerja + 了/完. Jadi 我把作业做完了 benar.",
+    "vocab": [
+      { "hanzi": "作业", "pinyin": "zuòyè", "meaningId": "tugas / pekerjaan rumah", "level": 3 },
+      { "hanzi": "完", "pinyin": "wán", "meaningId": "selesai", "level": 3 }
+    ]
+  },
+  {
+    "id": 43,
+    "level": 4,
+    "format": "reading_choice",
+    "body": "他为什么不想换工作？",
+    "readingText": "虽然工资不高，但是他觉得在这个公司能学到很多东西，而且同事之间的关系也很好，所以他不想换工作。",
+    "choices": [
+      { "label": "A", "hanzi": "能学到东西，同事关系好" },
+      { "label": "B", "hanzi": "工资很高" },
+      { "label": "C", "hanzi": "离家很近" },
+      { "label": "D", "hanzi": "工作很轻松" }
+    ],
+    "correctLabel": "A",
+    "explanationId": "Meskipun gajinya tidak tinggi, ia bisa belajar banyak dan hubungan dengan rekan kerja baik, jadi tidak ingin pindah.",
+    "vocab": [
+      { "hanzi": "工资", "pinyin": "gōngzī", "meaningId": "gaji", "level": 4 },
+      { "hanzi": "同事", "pinyin": "tóngshì", "meaningId": "rekan kerja", "level": 4 }
+    ]
+  },
+  {
+    "id": 44,
+    "level": 4,
+    "format": "reading_gap_fill",
+    "body": "这件事非常（），我们必须马上处理。",
+    "choices": [
+      { "label": "A", "hanzi": "紧急" },
+      { "label": "B", "hanzi": "有趣" },
+      { "label": "C", "hanzi": "简单" },
+      { "label": "D", "hanzi": "普通" }
+    ],
+    "correctLabel": "A",
+    "explanationId": "Karena harus segera ditangani (马上处理), situasinya mendesak (紧急).",
+    "vocab": [
+      { "hanzi": "紧急", "pinyin": "jǐnjí", "meaningId": "mendesak", "level": 4 },
+      { "hanzi": "处理", "pinyin": "chǔlǐ", "meaningId": "menangani", "level": 4 }
+    ]
+  },
+  {
+    "id": 45,
+    "level": 4,
+    "format": "reading_sentence_match",
+    "body": "请选出意思最接近的一句：不管遇到什么困难，他都不会放弃。",
+    "choices": [
+      { "label": "A", "hanzi": "他遇到困难也不会放弃。" },
+      { "label": "B", "hanzi": "他遇到困难就放弃了。" },
+      { "label": "C", "hanzi": "他没有遇到过困难。" },
+      { "label": "D", "hanzi": "他只在容易的时候坚持。" }
+    ],
+    "correctLabel": "A",
+    "explanationId": "Pola 不管……都…… berarti \"tidak peduli ... tetap ...\", jadi ia tidak akan menyerah meskipun menghadapi kesulitan.",
+    "vocab": [
+      { "hanzi": "不管", "pinyin": "bùguǎn", "meaningId": "tidak peduli", "level": 4 },
+      { "hanzi": "放弃", "pinyin": "fàngqì", "meaningId": "menyerah", "level": 4 }
+    ]
+  },
+  {
+    "id": 46,
+    "level": 4,
+    "format": "listening_dialogue_choice",
+    "body": "男的为什么换了一个医生？",
+    "readingText": "女：你怎么换医生了？男：以前那个医生态度不好，现在的这个又认真又负责。",
+    "choices": [
+      { "label": "A", "hanzi": "以前的医生态度不好" },
+      { "label": "B", "hanzi": "以前的医生收费太贵" },
+      { "label": "C", "hanzi": "以前的医生不在了" },
+      { "label": "D", "hanzi": "以前的医生技术不好" }
+    ],
+    "correctLabel": "A",
+    "explanationId": "Laki-laki menyebutkan dokter sebelumnya sikapnya kurang baik (态度不好), jadi ia berganti dokter.",
+    "vocab": [
+      { "hanzi": "态度", "pinyin": "tàidù", "meaningId": "sikap", "level": 4 },
+      { "hanzi": "负责", "pinyin": "fùzé", "meaningId": "bertanggung jawab", "level": 4 }
+    ]
+  },
+  {
+    "id": 47,
+    "level": 4,
+    "format": "reading_choice",
+    "body": "这篇文章主要介绍了什么？",
+    "readingText": "中国传统节日春节是一年中最重要的节日。家人们会一起吃年夜饭、放鞭炮、贴春联，互相祝福新年快乐。",
+    "choices": [
+      { "label": "A", "hanzi": "春节的传统习俗" },
+      { "label": "B", "hanzi": "中国的饮食文化" },
+      { "label": "C", "hanzi": "中国人的工作" },
+      { "label": "D", "hanzi": "中国的历史" }
+    ],
+    "correctLabel": "A",
+    "explanationId": "Teks membahas tradisi Tahun Baru Imlek seperti makan malam tahun baru, kembang api, dan puisi pintu, jadi topiknya 春节的传统习俗.",
+    "vocab": [
+      { "hanzi": "传统", "pinyin": "chuántǒng", "meaningId": "tradisional", "level": 4 },
+      { "hanzi": "节日", "pinyin": "jiérì", "meaningId": "hari raya", "level": 4 }
+    ]
+  },
+  {
+    "id": 48,
+    "level": 5,
+    "format": "reading_choice",
+    "body": "这篇文章主要讲了什么？",
+    "readingText": "随着互联网的普及，人们获取信息的方式发生了巨大变化。以前人们主要通过报纸和电视了解新闻，现在越来越多的人通过手机和电脑获取信息。",
+    "choices": [
+      { "label": "A", "hanzi": "获取信息方式的变化" },
+      { "label": "B", "hanzi": "手机的使用方法" },
+      { "label": "C", "hanzi": "报纸的历史" },
+      { "label": "D", "hanzi": "电脑的发展" }
+    ],
+    "correctLabel": "A",
+    "explanationId": "Teks membandingkan cara mendapatkan informasi dulu (koran, TV) dan sekarang (ponsel, komputer), jadi topiknya perubahan cara mendapat informasi.",
+    "vocab": [
+      { "hanzi": "普及", "pinyin": "pǔjí", "meaningId": "meluas / populer", "level": 5 },
+      { "hanzi": "获取", "pinyin": "huòqǔ", "meaningId": "memperoleh / mendapatkan", "level": 5 }
+    ]
+  },
+  {
+    "id": 49,
+    "level": 5,
+    "format": "reading_gap_fill",
+    "body": "他的建议非常有（），我们应该认真考虑。",
+    "choices": [
+      { "label": "A", "hanzi": "价值" },
+      { "label": "B", "hanzi": "问题" },
+      { "label": "C", "hanzi": "困难" },
+      { "label": "D", "hanzi": "错误" }
+    ],
+    "correctLabel": "A",
+    "explanationId": "Karena saran tersebut layak dipertimbangkan dengan serius, maka saran itu bernilai (有价值).",
+    "vocab": [
+      { "hanzi": "价值", "pinyin": "jiàzhí", "meaningId": "nilai", "level": 5 },
+      { "hanzi": "考虑", "pinyin": "kǎolǜ", "meaningId": "mempertimbangkan", "level": 5 }
+    ]
+  },
+  {
+    "id": 50,
+    "level": 5,
+    "format": "listening_dialogue_choice",
+    "body": "女的对搬家是什么态度？",
+    "readingText": "男：听说你要搬家了？女：是啊，虽然现在的房子离公司近，但是房租太贵了，新房子虽然远一点，但是便宜很多。",
+    "choices": [
+      { "label": "A", "hanzi": "觉得值得" },
+      { "label": "B", "hanzi": "觉得不值得" },
+      { "label": "C", "hanzi": "非常后悔" },
+      { "label": "D", "hanzi": "无所谓" }
+    ],
+    "correctLabel": "A",
+    "explanationId": "Wanita pindah demi menghemat uang sewa, meskipun lebih jauh. Ia menganggapnya sepadan (值得).",
+    "vocab": [
+      { "hanzi": "搬家", "pinyin": "bānjiā", "meaningId": "pindah rumah", "level": 5 },
+      { "hanzi": "房租", "pinyin": "fángzū", "meaningId": "uang sewa rumah", "level": 5 }
+    ]
+  },
+  {
+    "id": 51,
+    "level": 5,
+    "format": "writing_reorder",
+    "body": "请排成正确的句子：这个　消息　对　我们　来说　非常　重要",
+    "choices": [
+      { "label": "A", "hanzi": "这个消息对我们来说非常重要。" },
+      { "label": "B", "hanzi": "对我们来说这个消息非常重要。" },
+      { "label": "C", "hanzi": "非常重要这个消息对我们来说。" },
+      { "label": "D", "hanzi": "我们来说这个消息非常重要。" }
+    ],
+    "correctLabel": "A",
+    "explanationId": "Pola 对……来说 (bagi ...) ditempatkan setelah subjek: 这个消息 + 对我们来说 + 非常重要.",
+    "vocab": [
+      { "hanzi": "消息", "pinyin": "xiāoxi", "meaningId": "berita", "level": 5 },
+      { "hanzi": "重要", "pinyin": "zhòngyào", "meaningId": "penting", "level": 5 }
+    ]
+  },
+  {
+    "id": 52,
+    "level": 5,
+    "format": "reading_sentence_match",
+    "body": "请选出意思最接近的一句：尽管天气不好，比赛还是照常进行了。",
+    "choices": [
+      { "label": "A", "hanzi": "虽然天气不好，但是比赛照常进行。" },
+      { "label": "B", "hanzi": "因为天气不好，所以比赛取消了。" },
+      { "label": "C", "hanzi": "天气很好，比赛进行得很顺利。" },
+      { "label": "D", "hanzi": "比赛因为天气被推迟了。" }
+    ],
+    "correctLabel": "A",
+    "explanationId": "尽管 berarti \"meskipun\", sama maknanya dengan 虽然. Pertandingan tetap berlangsung meski cuaca buruk.",
+    "vocab": [
+      { "hanzi": "尽管", "pinyin": "jǐnguǎn", "meaningId": "meskipun", "level": 5 },
+      { "hanzi": "照常", "pinyin": "zhàocháng", "meaningId": "seperti biasa / tetap", "level": 5 }
+    ]
+  },
+  {
+    "id": 53,
+    "level": 6,
+    "format": "reading_choice",
+    "body": "作者写这段话的目的是什么？",
+    "readingText": "在全球化的背景下，保护传统文化显得尤为重要。我们不能因为追求经济发展而忽视了祖先留给我们的宝贵文化遗产。",
+    "choices": [
+      { "label": "A", "hanzi": "呼吁保护传统文化" },
+      { "label": "B", "hanzi": "反对全球化" },
+      { "label": "C", "hanzi": "批评经济发展" },
+      { "label": "D", "hanzi": "介绍文化遗产" }
+    ],
+    "correctLabel": "A",
+    "explanationId": "Teks mengingatkan agar jangan mengorbankan warisan budaya demi ekonomi, intinya mengajak melindungi budaya tradisional.",
+    "vocab": [
+      { "hanzi": "全球化", "pinyin": "quánqiúhuà", "meaningId": "globalisasi", "level": 6 },
+      { "hanzi": "文化遗产", "pinyin": "wénhuà yíchǎn", "meaningId": "warisan budaya", "level": 6 }
+    ]
+  },
+  {
+    "id": 54,
+    "level": 6,
+    "format": "reading_gap_fill",
+    "body": "这项政策的（）是为了缩小城乡之间的差距。",
+    "choices": [
+      { "label": "A", "hanzi": "目的" },
+      { "label": "B", "hanzi": "结果" },
+      { "label": "C", "hanzi": "问题" },
+      { "label": "D", "hanzi": "原因" }
+    ],
+    "correctLabel": "A",
+    "explanationId": "Kebijakan ini bertujuan (目的) untuk memperkecil kesenjangan antara kota dan desa.",
+    "vocab": [
+      { "hanzi": "政策", "pinyin": "zhèngcè", "meaningId": "kebijakan", "level": 6 },
+      { "hanzi": "差距", "pinyin": "chājù", "meaningId": "kesenjangan / perbedaan", "level": 6 }
+    ]
+  },
+  {
+    "id": 55,
+    "level": 6,
+    "format": "listening_dialogue_choice",
+    "body": "男的对这项改革持什么看法？",
+    "readingText": "女：你对这次教育改革怎么看？男：方向是对的，但是执行过程中可能会遇到不少阻力，需要时间来检验。",
+    "choices": [
+      { "label": "A", "hanzi": "方向正确但执行有难度" },
+      { "label": "B", "hanzi": "完全支持" },
+      { "label": "C", "hanzi": "完全反对" },
+      { "label": "D", "hanzi": "认为没有必要" }
+    ],
+    "correctLabel": "A",
+    "explanationId": "Pria setuju arah reformasinya benar, tetapi mengingatkan bahwa pelaksanaannya akan menghadapi hambatan — artinya arah benar tapi sulit dijalankan.",
+    "vocab": [
+      { "hanzi": "改革", "pinyin": "gǎigé", "meaningId": "reformasi", "level": 6 },
+      { "hanzi": "阻力", "pinyin": "zǔlì", "meaningId": "hambatan / rintangan", "level": 6 }
+    ]
+  },
+  {
+    "id": 56,
+    "level": 6,
+    "format": "writing_reorder",
+    "body": "请排成正确的句子：只有　通过　不断　努力　才能　取得　真正的　成功",
+    "choices": [
+      { "label": "A", "hanzi": "只有通过不断努力，才能取得真正的成功。" },
+      { "label": "B", "hanzi": "通过只有不断努力，才能取得真正的成功。" },
+      { "label": "C", "hanzi": "才能取得真正的成功只有通过不断努力。" },
+      { "label": "D", "hanzi": "不断努力只有通过才能取得真正的成功。" }
+    ],
+    "correctLabel": "A",
+    "explanationId": "Pola 只有……才……: 只有 + syarat, 才 + hasil. Urutan: 只有通过不断努力，才能取得真正的成功。",
+    "vocab": [
+      { "hanzi": "不断", "pinyin": "búduàn", "meaningId": "terus-menerus", "level": 6 },
+      { "hanzi": "取得", "pinyin": "qǔdé", "meaningId": "memperoleh / mencapai", "level": 6 }
+    ]
+  },
+  {
+    "id": 57,
+    "level": 6,
+    "format": "reading_sentence_match",
+    "body": "请选出意思最接近的一句：凡事都有两面性，不能只看一面。",
+    "choices": [
+      { "label": "A", "hanzi": "看问题要全面。" },
+      { "label": "B", "hanzi": "每件事都有好的一面。" },
+      { "label": "C", "hanzi": "只看一面就够了。" },
+      { "label": "D", "hanzi": "事情没有好坏之分。" }
+    ],
+    "correctLabel": "A",
+    "explanationId": "\"凡事都有两面性，不能只看一面\" berarti semua hal punya dua sisi, jadi harus dilihat secara menyeluruh (全面).",
+    "vocab": [
+      { "hanzi": "两面性", "pinyin": "liǎngmiànxìng", "meaningId": "sifat dua sisi", "level": 6 },
+      { "hanzi": "全面", "pinyin": "quánmiàn", "meaningId": "menyeluruh / komprehensif", "level": 6 }
+    ]
   }
 ]
 

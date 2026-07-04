@@ -396,5 +396,288 @@
       "wǒ hěn máng（我很忙）"
     ],
     "correctOption": "méi guānxi（没关系）"
+  },
+  {
+    "id": 37,
+    "type": "pinyin_drag",
+    "instruction": "写出\"学校\"的正确拼音：",
+    "hintContent": "学校 读作 xué xiào。",
+    "pinyinSlots": [
+      { "id": "slot-1", "placeholder": "学", "correctValue": "xué" },
+      { "id": "slot-2", "placeholder": "校", "correctValue": "xiào" }
+    ],
+    "dragOptions": ["xué", "xiào", "xuě", "xiāo"]
+  },
+  {
+    "id": 38,
+    "type": "manual",
+    "instruction": "写出\"飞机\"的拼音（不带声调）：",
+    "hintContent": "飞机 是交通工具，f开头。",
+    "correctManualAnswer": "feiji"
+  },
+  {
+    "id": 39,
+    "type": "conversation",
+    "instruction": "选择正确的拼音来回答下面的对话：",
+    "hintContent": "回答\"你吃饭了吗？\"（Nǐ chīfàn le ma?），可以说\"wǒ chī le\"。",
+    "chatHistory": [
+      { "sender": "bot", "text": "你吃饭了吗？（Nǐ chīfàn le ma?）" }
+    ],
+    "options": [
+      "wǒ chī le（我吃了）",
+      "wǒ bù zhīdào（我不知道）",
+      "míngtiān jiàn（明天见）"
+    ],
+    "correctOption": "wǒ chī le（我吃了）"
+  },
+  {
+    "id": 40,
+    "type": "match",
+    "instruction": "将拼音与对应的汉字配对：",
+    "hintContent": "māo = 猫，gǒu = 狗，yú = 鱼。",
+    "leftItems": [
+      { "id": "l1", "text": "māo" },
+      { "id": "l2", "text": "gǒu" },
+      { "id": "l3", "text": "yú" }
+    ],
+    "rightItems": [
+      { "id": "r1", "text": "猫" },
+      { "id": "r2", "text": "狗" },
+      { "id": "r3", "text": "鱼" }
+    ],
+    "matchPairs": { "l1": "r1", "l2": "r2", "l3": "r3" }
+  },
+  {
+    "id": 41,
+    "type": "pinyin_drag",
+    "instruction": "写出\"工作\"的正确拼音：",
+    "hintContent": "工作 读作 gōng zuò。",
+    "pinyinSlots": [
+      { "id": "slot-1", "placeholder": "工", "correctValue": "gōng" },
+      { "id": "slot-2", "placeholder": "作", "correctValue": "zuò" }
+    ],
+    "dragOptions": ["gōng", "zuò", "gòng", "zuō"]
+  },
+  {
+    "id": 42,
+    "type": "manual",
+    "instruction": "写出\"医院\"的拼音（不带声调）：",
+    "hintContent": "医院 是看病的地方，y开头。",
+    "correctManualAnswer": "yiyuan"
+  },
+  {
+    "id": 43,
+    "type": "pinyin_drag",
+    "instruction": "写出\"水果\"的正确拼音：",
+    "hintContent": "水果 读作 shuǐ guǒ。",
+    "pinyinSlots": [
+      { "id": "slot-1", "placeholder": "水", "correctValue": "shuǐ" },
+      { "id": "slot-2", "placeholder": "果", "correctValue": "guǒ" }
+    ],
+    "dragOptions": ["shuǐ", "guǒ", "shuì", "guō"]
+  },
+  {
+    "id": 44,
+    "type": "conversation",
+    "instruction": "选择正确的拼音来回答下面的对话：",
+    "hintContent": "回答\"今天天气怎么样？\"（Jīntiān tiānqì zěnmeyàng?），描述天气。",
+    "chatHistory": [
+      { "sender": "bot", "text": "今天天气怎么样？（Jīntiān tiānqì zěnmeyàng?）" }
+    ],
+    "options": [
+      "jīntiān hěn rè（今天很热）",
+      "wǒ xǐhuan kànshū（我喜欢看书）",
+      "xièxie nǐ（谢谢你）"
+    ],
+    "correctOption": "jīntiān hěn rè（今天很热）"
+  },
+  {
+    "id": 45,
+    "type": "manual",
+    "instruction": "写出\"衣服\"的拼音（不带声调）：",
+    "hintContent": "衣服 读作 yīfu。",
+    "correctManualAnswer": "yifu"
+  },
+  {
+    "id": 46,
+    "type": "match",
+    "instruction": "将数字汉字与拼音配对：",
+    "hintContent": "一 = yī，三 = sān，五 = wǔ，七 = qī。",
+    "leftItems": [
+      { "id": "l1", "text": "一" },
+      { "id": "l2", "text": "三" },
+      { "id": "l3", "text": "五" },
+      { "id": "l4", "text": "七" }
+    ],
+    "rightItems": [
+      { "id": "r1", "text": "yī" },
+      { "id": "r2", "text": "sān" },
+      { "id": "r3", "text": "wǔ" },
+      { "id": "r4", "text": "qī" }
+    ],
+    "matchPairs": { "l1": "r1", "l2": "r2", "l3": "r3", "l4": "r4" }
+  },
+  {
+    "id": 47,
+    "type": "pinyin_drag",
+    "instruction": "写出\"电话\"的正确拼音：",
+    "hintContent": "电话 读作 diàn huà。",
+    "pinyinSlots": [
+      { "id": "slot-1", "placeholder": "电", "correctValue": "diàn" },
+      { "id": "slot-2", "placeholder": "话", "correctValue": "huà" }
+    ],
+    "dragOptions": ["diàn", "huà", "diǎn", "huā"]
+  },
+  {
+    "id": 48,
+    "type": "manual",
+    "instruction": "写出\"米饭\"的拼音（不带声调）：",
+    "hintContent": "米饭 是主食，m开头。",
+    "correctManualAnswer": "mifan"
+  },
+  {
+    "id": 49,
+    "type": "conversation",
+    "instruction": "选择正确的拼音来回答下面的对话：",
+    "hintContent": "回答\"你多大了？\"（Nǐ duō dà le?），说出年龄。",
+    "chatHistory": [
+      { "sender": "bot", "text": "你多大了？（Nǐ duō dà le?）" }
+    ],
+    "options": [
+      "wǒ èrshí suì（我二十岁）",
+      "wǒ hěn gāoxìng（我很高兴）",
+      "zàijiàn（再见）"
+    ],
+    "correctOption": "wǒ èrshí suì（我二十岁）"
+  },
+  {
+    "id": 50,
+    "type": "pinyin_drag",
+    "instruction": "写出\"睡觉\"的正确拼音：",
+    "hintContent": "睡觉 读作 shuì jiào。",
+    "pinyinSlots": [
+      { "id": "slot-1", "placeholder": "睡", "correctValue": "shuì" },
+      { "id": "slot-2", "placeholder": "觉", "correctValue": "jiào" }
+    ],
+    "dragOptions": ["shuì", "jiào", "shuǐ", "jiǎo"]
+  },
+  {
+    "id": 51,
+    "type": "match",
+    "instruction": "将家庭成员的汉字与拼音配对：",
+    "hintContent": "爸爸 = bàba，妈妈 = māma，哥哥 = gēge。",
+    "leftItems": [
+      { "id": "l1", "text": "爸爸" },
+      { "id": "l2", "text": "妈妈" },
+      { "id": "l3", "text": "哥哥" }
+    ],
+    "rightItems": [
+      { "id": "r1", "text": "bàba" },
+      { "id": "r2", "text": "māma" },
+      { "id": "r3", "text": "gēge" }
+    ],
+    "matchPairs": { "l1": "r1", "l2": "r2", "l3": "r3" }
+  },
+  {
+    "id": 52,
+    "type": "manual",
+    "instruction": "写出\"教室\"的拼音（不带声调）：",
+    "hintContent": "教室 是上课的地方，j开头。",
+    "correctManualAnswer": "jiaoshi"
+  },
+  {
+    "id": 53,
+    "type": "pinyin_drag",
+    "instruction": "写出\"商店\"的正确拼音：",
+    "hintContent": "商店 读作 shāng diàn。",
+    "pinyinSlots": [
+      { "id": "slot-1", "placeholder": "商", "correctValue": "shāng" },
+      { "id": "slot-2", "placeholder": "店", "correctValue": "diàn" }
+    ],
+    "dragOptions": ["shāng", "diàn", "shàng", "diǎn"]
+  },
+  {
+    "id": 54,
+    "type": "conversation",
+    "instruction": "选择正确的拼音来回答下面的对话：",
+    "hintContent": "回答\"你想喝什么？\"（Nǐ xiǎng hē shénme?），选饮品。",
+    "chatHistory": [
+      { "sender": "bot", "text": "你想喝什么？（Nǐ xiǎng hē shénme?）" }
+    ],
+    "options": [
+      "wǒ xiǎng hē kāfēi（我想喝咖啡）",
+      "wǒ yào mǎi shū（我要买书）",
+      "wǒ hěn gāoxìng（我很高兴）"
+    ],
+    "correctOption": "wǒ xiǎng hē kāfēi（我想喝咖啡）"
+  },
+  {
+    "id": 55,
+    "type": "pinyin_drag",
+    "instruction": "写出\"桌子\"的正确拼音：",
+    "hintContent": "桌子 读作 zhuō zi。",
+    "pinyinSlots": [
+      { "id": "slot-1", "placeholder": "桌", "correctValue": "zhuō" },
+      { "id": "slot-2", "placeholder": "子", "correctValue": "zi" }
+    ],
+    "dragOptions": ["zhuō", "zi", "zhuó", "zì"]
+  },
+  {
+    "id": 56,
+    "type": "manual",
+    "instruction": "\"七\"是第几声？（qī，输入1-4）",
+    "hintContent": "七 是高平调。",
+    "correctManualAnswer": "1"
+  },
+  {
+    "id": 57,
+    "type": "match",
+    "instruction": "将拼音与对应的动物汉字配对：",
+    "hintContent": "niú = 牛，mǎ = 马，niǎo = 鸟。",
+    "leftItems": [
+      { "id": "l1", "text": "niú" },
+      { "id": "l2", "text": "mǎ" },
+      { "id": "l3", "text": "niǎo" }
+    ],
+    "rightItems": [
+      { "id": "r1", "text": "牛" },
+      { "id": "r2", "text": "马" },
+      { "id": "r3", "text": "鸟" }
+    ],
+    "matchPairs": { "l1": "r1", "l2": "r2", "l3": "r3" }
+  },
+  {
+    "id": 58,
+    "type": "pinyin_drag",
+    "instruction": "写出\"出租车\"的正确拼音：",
+    "hintContent": "出租车 读作 chū zū chē。",
+    "pinyinSlots": [
+      { "id": "slot-1", "placeholder": "出", "correctValue": "chū" },
+      { "id": "slot-2", "placeholder": "租", "correctValue": "zū" },
+      { "id": "slot-3", "placeholder": "车", "correctValue": "chē" }
+    ],
+    "dragOptions": ["chū", "zū", "chē", "chú", "zù", "chě"]
+  },
+  {
+    "id": 59,
+    "type": "manual",
+    "instruction": "写出\"银行\"的拼音（不带声调）：",
+    "hintContent": "银行 是存钱的地方，y开头。",
+    "correctManualAnswer": "yinhang"
+  },
+  {
+    "id": 60,
+    "type": "conversation",
+    "instruction": "选择正确的拼音来回答下面的对话：",
+    "hintContent": "回答\"请问，洗手间在哪儿？\"，指出方向。",
+    "chatHistory": [
+      { "sender": "bot", "text": "请问，洗手间在哪儿？（Qǐngwèn, xǐshǒujiān zài nǎr?）" }
+    ],
+    "options": [
+      "zài zuǒbiān（在左边）",
+      "wǒ bù zhīdào（我不知道）",
+      "hěn piàoliang（很漂亮）"
+    ],
+    "correctOption": "zài zuǒbiān（在左边）"
   }
 ]

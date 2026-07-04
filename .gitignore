@@ -22,3 +22,11 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Kiro
+.kiro/
+.kiro/**/*
+
+# Skills cache
+.skills/
+.skills/**/*

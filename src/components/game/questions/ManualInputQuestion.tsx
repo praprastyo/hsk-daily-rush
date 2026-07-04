@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { motion } from 'framer-motion';
 import type { Question } from '../../../types/game';
 
@@ -13,6 +14,8 @@ export function ManualInputQuestion({
   question, manualInputValue, isManualInputCorrect,
   setManualInputValue, setIsManualInputCorrect,
 }: Props) {
+  const [showHint, setShowHint] = useState(false);
+
   return (
     <motion.div
       initial={{ x: 40, opacity: 0 }}
@@ -20,15 +23,25 @@ export function ManualInputQuestion({
       transition={{ type: 'spring' as const, stiffness: 300, damping: 25 }}
       className="flex flex-col gap-4 py-6"
     >
-      {/* Hint preview */}
-      <motion.p
-        initial={{ opacity: 0, y: -10 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.15 }}
-        className="text-center text-sm text-gray-400 font-semibold"
-      >
-        {question.hintContent}
-      </motion.p>
+      {/* Hint — hidden by default, revealed on click */}
+      <div className="text-center">
+        <button
+          type="button"
+          onClick={() => setShowHint((v) => !v)}
+          className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full border border-gray-200 bg-gray-50 text-xs font-bold text-gray-400 hover:text-gray-600 hover:border-gray-300 transition-all"
+        >
+          💡 {showHint ? 'Sembunyikan Petunjuk' : 'Tampilkan Petunjuk'}
+        </button>
+        {showHint && (
+          <motion.p
+            initial={{ opacity: 0, y: -6 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="mt-2 text-sm text-gray-400 font-semibold"
+          >
+            {question.hintContent}
+          </motion.p>
+        )}
+      </div>
 
       <input
         type="text"
