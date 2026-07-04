@@ -2,8 +2,8 @@
   {
     "id": 1,
     "type": "pinyin_drag",
-    "instruction": "Susun Pinyin yang benar untuk sapaan \"你好\" (halo):",
-    "hintContent": "你好 dibaca 'nǐ hǎo'. Kedua suku kata memakai nada ke-3.",
+    "instruction": "写出\"你好\"的正确拼音：",
+    "hintContent": "你好 读作 nǐ hǎo，两个音节都是第三声。",
     "pinyinSlots": [
       { "id": "slot-1", "placeholder": "你", "correctValue": "nǐ" },
       { "id": "slot-2", "placeholder": "好", "correctValue": "hǎo" }
@@ -13,15 +13,15 @@
   {
     "id": 2,
     "type": "manual",
-    "instruction": "Tulis Pinyin (tanpa nada) untuk \"谢谢\" (terima kasih):",
-    "hintContent": "谢谢 diromanisasi menjadi 'xiexie'.",
+    "instruction": "写出\"谢谢\"的拼音（不带声调）：",
+    "hintContent": "谢谢 的拼音是 xiexie。",
     "correctManualAnswer": "xiexie"
   },
   {
     "id": 3,
     "type": "match",
-    "instruction": "Pasangkan inisial (konsonan) dengan final (vokal) agar membentuk suku kata yang benar:",
-    "hintContent": "b + a = ba, m + ao = mao, h + ao = hao.",
+    "instruction": "将声母和韵母配对，组成正确的音节：",
+    "hintContent": "b + a = ba，m + ao = mao，h + ao = hao。",
     "leftItems": [
       { "id": "l1", "text": "b + a" },
       { "id": "l2", "text": "m + ao" },
@@ -37,15 +37,15 @@
   {
     "id": 4,
     "type": "manual",
-    "instruction": "Tulis Pinyin (tanpa nada) untuk \"舒服\" (nyaman):",
-    "hintContent": "舒服 diromanisasi menjadi 'shufu'.",
+    "instruction": "写出\"舒服\"的拼音（不带声调）：",
+    "hintContent": "舒服 的拼音是 shufu。",
     "correctManualAnswer": "shufu"
   },
   {
     "id": 5,
     "type": "pinyin_drag",
-    "instruction": "Susun Pinyin yang benar untuk \"老师\" (guru):",
-    "hintContent": "老师 dibaca 'lǎo shī'. 老 = nada 3, 师 = nada 1.",
+    "instruction": "写出\"老师\"的正确拼音：",
+    "hintContent": "老师 读作 lǎo shī。老 = 第三声，师 = 第一声。",
     "pinyinSlots": [
       { "id": "slot-1", "placeholder": "老", "correctValue": "lǎo" },
       { "id": "slot-2", "placeholder": "师", "correctValue": "shī" }
@@ -55,30 +55,30 @@
   {
     "id": 6,
     "type": "conversation",
-    "instruction": "Pilih Pinyin yang tepat untuk membalas sapaan berikut:",
-    "hintContent": "Balasan untuk '你好吗？' (apa kabar?) adalah 'wǒ hěn hǎo' (saya baik).",
+    "instruction": "选择正确的拼音来回答下面的对话：",
+    "hintContent": "回答\"你好吗？\"（Nǐ hǎo ma?）应该说\"wǒ hěn hǎo\"（我很好）。",
     "chatHistory": [
-      { "sender": "bot", "text": "你好吗？ (Nǐ hǎo ma? — Apa kabar?)" }
+      { "sender": "bot", "text": "你好吗？（Nǐ hǎo ma?）" }
     ],
     "options": [
-      "wǒ hěn hǎo (Saya baik-baik saja.)",
-      "míngtiān jiàn (Sampai jumpa besok.)",
-      "duìbuqǐ (Maaf.)"
+      "wǒ hěn hǎo（我很好）",
+      "míngtiān jiàn（明天见）",
+      "duìbuqǐ（对不起）"
     ],
-    "correctOption": "wǒ hěn hǎo (Saya baik-baik saja.)"
+    "correctOption": "wǒ hěn hǎo（我很好）"
   },
   {
     "id": 7,
     "type": "manual",
-    "instruction": "Berapa nada suku kata pertama pada \"妈妈\" (ibu, dibaca 'māma')? Ketik angkanya (1-4):",
-    "hintContent": "妈 menggunakan nada datar tinggi, yaitu nada ke-1.",
+    "instruction": "\"妈妈\"的\"妈\"是第几声？（māma，输入1-4）",
+    "hintContent": "妈 是高平调，第一声。",
     "correctManualAnswer": "1"
   },
   {
     "id": 8,
     "type": "pinyin_drag",
-    "instruction": "Susun Pinyin yang benar untuk \"中国\" (Tiongkok):",
-    "hintContent": "中国 dibaca 'zhōng guó'. 中 = nada 1, 国 = nada 2.",
+    "instruction": "写出\"中国\"的正确拼音：",
+    "hintContent": "中国 读作 zhōng guó。中 = 第一声，国 = 第二声。",
     "pinyinSlots": [
       { "id": "slot-1", "placeholder": "中", "correctValue": "zhōng" },
       { "id": "slot-2", "placeholder": "国", "correctValue": "guó" }
@@ -88,15 +88,15 @@
   {
     "id": 9,
     "type": "manual",
-    "instruction": "Tulis Pinyin (tanpa nada) untuk \"感冒\" (flu):",
-    "hintContent": "感冒 diromanisasi menjadi 'ganmao'.",
+    "instruction": "写出\"感冒\"的拼音（不带声调）：",
+    "hintContent": "感冒 的拼音是 ganmao。",
     "correctManualAnswer": "ganmao"
   },
   {
     "id": 10,
     "type": "match",
-    "instruction": "Pasangkan suku kata Pinyin dengan nada yang benar:",
-    "hintContent": "mā = nada 1, má = nada 2, mǎ = nada 3, mà = nada 4.",
+    "instruction": "将拼音音节与正确的声调配对：",
+    "hintContent": "mā = 第一声，má = 第二声，mǎ = 第三声，mà = 第四声。",
     "leftItems": [
       { "id": "l1", "text": "mā" },
       { "id": "l2", "text": "má" },
@@ -104,18 +104,18 @@
       { "id": "l4", "text": "mà" }
     ],
     "rightItems": [
-      { "id": "r1", "text": "Nada 1 (datar tinggi)" },
-      { "id": "r2", "text": "Nada 2 (naik)" },
-      { "id": "r3", "text": "Nada 3 (turun-naik)" },
-      { "id": "r4", "text": "Nada 4 (turun tajam)" }
+      { "id": "r1", "text": "第一声（高平调）" },
+      { "id": "r2", "text": "第二声（升调）" },
+      { "id": "r3", "text": "第三声（降升调）" },
+      { "id": "r4", "text": "第四声（降调）" }
     ],
     "matchPairs": { "l1": "r1", "l2": "r2", "l3": "r3", "l4": "r4" }
   },
   {
     "id": 11,
     "type": "pinyin_drag",
-    "instruction": "Susun Pinyin yang benar untuk \"学生\" (murid):",
-    "hintContent": "学生 dibaca 'xué shēng'. 学 = nada 2, 生 = nada 1.",
+    "instruction": "写出\"学生\"的正确拼音：",
+    "hintContent": "学生 读作 xué shēng。学 = 第二声，生 = 第一声。",
     "pinyinSlots": [
       { "id": "slot-1", "placeholder": "学", "correctValue": "xué" },
       { "id": "slot-2", "placeholder": "生", "correctValue": "shēng" }
@@ -125,30 +125,30 @@
   {
     "id": 12,
     "type": "manual",
-    "instruction": "Tulis Pinyin (tanpa nada) untuk \"再见\" (sampai jumpa):",
-    "hintContent": "再见 diromanisasi menjadi 'zaijian'.",
+    "instruction": "写出\"再见\"的拼音（不带声调）：",
+    "hintContent": "再见 的拼音是 zaijian。",
     "correctManualAnswer": "zaijian"
   },
   {
     "id": 13,
     "type": "conversation",
-    "instruction": "Pilih Pinyin yang tepat untuk melengkapi percakapan berikut:",
-    "hintContent": "Untuk '谢谢你！' (terima kasih), jawaban yang sopan adalah 'bú kèqi' (sama-sama).",
+    "instruction": "选择正确的拼音来回答下面的对话：",
+    "hintContent": "对\"谢谢你！\"（Xièxie nǐ!），礼貌的回答是\"bú kèqi\"（不客气）。",
     "chatHistory": [
-      { "sender": "bot", "text": "谢谢你！ (Xièxie nǐ! — Terima kasih!)" }
+      { "sender": "bot", "text": "谢谢你！（Xièxie nǐ!）" }
     ],
     "options": [
-      "bú kèqi (Sama-sama.)",
-      "wǒ è le (Saya lapar.)",
-      "tài guì le (Terlalu mahal.)"
+      "bú kèqi（不客气）",
+      "wǒ è le（我饿了）",
+      "tài guì le（太贵了）"
     ],
-    "correctOption": "bú kèqi (Sama-sama.)"
+    "correctOption": "bú kèqi（不客气）"
   },
   {
     "id": 14,
     "type": "pinyin_drag",
-    "instruction": "Susun Pinyin yang benar untuk \"喝茶\" (minum teh):",
-    "hintContent": "喝茶 dibaca 'hē chá'. 喝 = nada 1, 茶 = nada 2.",
+    "instruction": "写出\"喝茶\"的正确拼音：",
+    "hintContent": "喝茶 读作 hē chá。喝 = 第一声，茶 = 第二声。",
     "pinyinSlots": [
       { "id": "slot-1", "placeholder": "喝", "correctValue": "hē" },
       { "id": "slot-2", "placeholder": "茶", "correctValue": "chá" }
@@ -158,15 +158,15 @@
   {
     "id": 15,
     "type": "manual",
-    "instruction": "Tulis Pinyin (tanpa nada) untuk \"附近\" (sekitar/terdekat):",
-    "hintContent": "附近 diromanisasi menjadi 'fujin'.",
+    "instruction": "写出\"附近\"的拼音（不带声调）：",
+    "hintContent": "附近 的拼音是 fujin。",
     "correctManualAnswer": "fujin"
   },
   {
     "id": 16,
     "type": "match",
-    "instruction": "Pasangkan inisial retrofleks dengan suku kata yang benar:",
-    "hintContent": "zh+i = zhi, ch+i = chi, sh+i = shi, r+i = ri.",
+    "instruction": "将翘舌声母与正确的音节配对：",
+    "hintContent": "zh+i = zhi，ch+i = chi，sh+i = shi，r+i = ri。",
     "leftItems": [
       { "id": "l1", "text": "zh + i" },
       { "id": "l2", "text": "ch + i" },
@@ -184,8 +184,8 @@
   {
     "id": 17,
     "type": "pinyin_drag",
-    "instruction": "Susun Pinyin yang benar untuk \"朋友\" (teman):",
-    "hintContent": "朋友 dibaca 'péng you'. 朋 = nada 2, 友 = nada 3.",
+    "instruction": "写出\"朋友\"的正确拼音：",
+    "hintContent": "朋友 读作 péng you。朋 = 第二声，友 = 第三声。",
     "pinyinSlots": [
       { "id": "slot-1", "placeholder": "朋", "correctValue": "péng" },
       { "id": "slot-2", "placeholder": "友", "correctValue": "yǒu" }
@@ -195,30 +195,30 @@
   {
     "id": 18,
     "type": "manual",
-    "instruction": "Tulis Pinyin (tanpa nada) untuk \"其实\" (sebenarnya):",
-    "hintContent": "其实 diromanisasi menjadi 'qishi'.",
+    "instruction": "写出\"其实\"的拼音（不带声调）：",
+    "hintContent": "其实 的拼音是 qishi。",
     "correctManualAnswer": "qishi"
   },
   {
     "id": 19,
     "type": "conversation",
-    "instruction": "Pilih Pinyin yang tepat untuk melengkapi percakapan berikut:",
-    "hintContent": "Untuk '你叫什么名字？' (siapa namamu?), jawaban yang cocok diawali 'wǒ jiào ...' (saya bernama ...).",
+    "instruction": "选择正确的拼音来回答下面的对话：",
+    "hintContent": "回答\"你叫什么名字？\"（Nǐ jiào shénme míngzi?），正确的回答以\"wǒ jiào ...\"开头。",
     "chatHistory": [
-      { "sender": "bot", "text": "你叫什么名字？ (Nǐ jiào shénme míngzi? — Siapa namamu?)" }
+      { "sender": "bot", "text": "你叫什么名字？（Nǐ jiào shénme míngzi?）" }
     ],
     "options": [
-      "wǒ jiào Lìli (Saya bernama Lili.)",
-      "hěn gāoxìng (Senang sekali.)",
-      "zhè shì shénme (Ini apa?)"
+      "wǒ jiào Lìli（我叫丽丽）",
+      "hěn gāoxìng（很高兴）",
+      "zhè shì shénme（这是什么）"
     ],
-    "correctOption": "wǒ jiào Lìli (Saya bernama Lili.)"
+    "correctOption": "wǒ jiào Lìli（我叫丽丽）"
   },
   {
     "id": 20,
     "type": "pinyin_drag",
-    "instruction": "Susun Pinyin yang benar untuk \"打扫\" (membersihkan):",
-    "hintContent": "打扫 dibaca 'dǎ sǎo'. Keduanya memakai nada ke-3.",
+    "instruction": "写出\"打扫\"的正确拼音：",
+    "hintContent": "打扫 读作 dǎ sǎo，两个都是第三声。",
     "pinyinSlots": [
       { "id": "slot-1", "placeholder": "打", "correctValue": "dǎ" },
       { "id": "slot-2", "placeholder": "扫", "correctValue": "sǎo" }
@@ -228,15 +228,15 @@
   {
     "id": 21,
     "type": "manual",
-    "instruction": "Berapa nada suku kata pada \"四\" (empat, dibaca 'sì')? Ketik angkanya (1-4):",
-    "hintContent": "四 turun tajam, yaitu nada ke-4.",
+    "instruction": "\"四\"是第几声？（sì，输入1-4）",
+    "hintContent": "四 是急降调，第四声。",
     "correctManualAnswer": "4"
   },
   {
     "id": 22,
     "type": "pinyin_drag",
-    "instruction": "Susun Pinyin yang benar untuk \"咖啡\" (kopi):",
-    "hintContent": "咖啡 dibaca 'kā fēi'. Keduanya memakai nada ke-1.",
+    "instruction": "写出\"咖啡\"的正确拼音：",
+    "hintContent": "咖啡 读作 kā fēi，两个都是第一声。",
     "pinyinSlots": [
       { "id": "slot-1", "placeholder": "咖", "correctValue": "kā" },
       { "id": "slot-2", "placeholder": "啡", "correctValue": "fēi" }
@@ -246,32 +246,32 @@
   {
     "id": 23,
     "type": "manual",
-    "instruction": "Tulis Pinyin (tanpa nada) untuk \"声音\" (suara):",
-    "hintContent": "声音 diromanisasi menjadi 'shengyin'.",
+    "instruction": "写出\"声音\"的拼音（不带声调）：",
+    "hintContent": "声音 的拼音是 shengyin。",
     "correctManualAnswer": "shengyin"
   },
   {
     "id": 24,
     "type": "match",
-    "instruction": "Pasangkan suku kata Pinyin dengan terjemahan Indonesianya:",
-    "hintContent": "shuǐ = air, chá = teh, fàn = nasi.",
+    "instruction": "将拼音与对应的汉字配对：",
+    "hintContent": "shuǐ = 水，chá = 茶，fàn = 饭。",
     "leftItems": [
       { "id": "l1", "text": "shuǐ" },
       { "id": "l2", "text": "chá" },
       { "id": "l3", "text": "fàn" }
     ],
     "rightItems": [
-      { "id": "r1", "text": "air (水)" },
-      { "id": "r2", "text": "teh (茶)" },
-      { "id": "r3", "text": "nasi (饭)" }
+      { "id": "r1", "text": "水" },
+      { "id": "r2", "text": "茶" },
+      { "id": "r3", "text": "饭" }
     ],
     "matchPairs": { "l1": "r1", "l2": "r2", "l3": "r3" }
   },
   {
     "id": 25,
     "type": "pinyin_drag",
-    "instruction": "Susun Pinyin yang benar untuk \"医生\" (dokter):",
-    "hintContent": "医生 dibaca 'yī shēng'. Keduanya memakai nada ke-1.",
+    "instruction": "写出\"医生\"的正确拼音：",
+    "hintContent": "医生 读作 yī shēng，两个都是第一声。",
     "pinyinSlots": [
       { "id": "slot-1", "placeholder": "医", "correctValue": "yī" },
       { "id": "slot-2", "placeholder": "生", "correctValue": "shēng" }
@@ -281,15 +281,15 @@
   {
     "id": 26,
     "type": "manual",
-    "instruction": "Tulis Pinyin (tanpa nada) untuk \"一直\" (terus-menerus):",
-    "hintContent": "一直 diromanisasi menjadi 'yizhi'.",
+    "instruction": "写出\"一直\"的拼音（不带声调）：",
+    "hintContent": "一直 的拼音是 yizhi。",
     "correctManualAnswer": "yizhi"
   },
   {
     "id": 27,
     "type": "pinyin_drag",
-    "instruction": "Susun Pinyin yang benar untuk \"汉语\" (bahasa Mandarin):",
-    "hintContent": "汉语 dibaca 'hàn yǔ'. 汉 = nada 4, 语 = nada 3.",
+    "instruction": "写出\"汉语\"的正确拼音：",
+    "hintContent": "汉语 读作 hàn yǔ。汉 = 第四声，语 = 第三声。",
     "pinyinSlots": [
       { "id": "slot-1", "placeholder": "汉", "correctValue": "hàn" },
       { "id": "slot-2", "placeholder": "语", "correctValue": "yǔ" }
@@ -299,30 +299,30 @@
   {
     "id": 28,
     "type": "manual",
-    "instruction": "Berapa nada suku kata pada \"来\" (datang, dibaca 'lái')? Ketik angkanya (1-4):",
-    "hintContent": "来 naik dari rendah ke tinggi, yaitu nada ke-2.",
+    "instruction": "\"来\"是第几声？（lái，输入1-4）",
+    "hintContent": "来 从低到高，第二声。",
     "correctManualAnswer": "2"
   },
   {
     "id": 29,
     "type": "conversation",
-    "instruction": "Pilih Pinyin yang tepat untuk melengkapi percakapan berikut:",
-    "hintContent": "Untuk '这个多少钱？' (berapa harganya?), jawaban yang logis menyebut harga 'shí kuài qián' (10 yuan).",
+    "instruction": "选择正确的拼音来回答下面的对话：",
+    "hintContent": "回答\"这个多少钱？\"（Zhège duōshao qián?），合理的回答是\"shí kuài qián\"（十块钱）。",
     "chatHistory": [
-      { "sender": "bot", "text": "这个多少钱？ (Zhège duōshao qián? — Berapa harga ini?)" }
+      { "sender": "bot", "text": "这个多少钱？（Zhège duōshao qián?）" }
     ],
     "options": [
-      "shí kuài qián (Sepuluh yuan.)",
-      "wǒ shì xuésheng (Saya murid.)",
-      "tā hěn lèi (Dia lelah.)"
+      "shí kuài qián（十块钱）",
+      "wǒ shì xuésheng（我是学生）",
+      "tā hěn lèi（她很累）"
     ],
-    "correctOption": "shí kuài qián (Sepuluh yuan.)"
+    "correctOption": "shí kuài qián（十块钱）"
   },
   {
     "id": 30,
     "type": "pinyin_drag",
-    "instruction": "Susun Pinyin yang benar untuk \"火车\" (kereta api):",
-    "hintContent": "火车 dibaca 'huǒ chē'. 火 = nada 3, 车 = nada 1.",
+    "instruction": "写出\"火车\"的正确拼音：",
+    "hintContent": "火车 读作 huǒ chē。火 = 第三声，车 = 第一声。",
     "pinyinSlots": [
       { "id": "slot-1", "placeholder": "火", "correctValue": "huǒ" },
       { "id": "slot-2", "placeholder": "车", "correctValue": "chē" }
@@ -332,15 +332,15 @@
   {
     "id": 31,
     "type": "manual",
-    "instruction": "Tulis Pinyin (tanpa nada) untuk \"被\" (partikel pasif):",
-    "hintContent": "被 diromanisasi menjadi 'bei'.",
+    "instruction": "写出\"被\"的拼音（不带声调）：",
+    "hintContent": "被 的拼音是 bei。",
     "correctManualAnswer": "bei"
   },
   {
     "id": 32,
     "type": "match",
-    "instruction": "Pasangkan inisial palatal dengan suku kata yang benar:",
-    "hintContent": "j+i = ji, q+i = qi, x+i = xi.",
+    "instruction": "将腭音声母与正确的音节配对：",
+    "hintContent": "j+i = ji，q+i = qi，x+i = xi。",
     "leftItems": [
       { "id": "l1", "text": "j + i" },
       { "id": "l2", "text": "q + i" },
@@ -356,8 +356,8 @@
   {
     "id": 33,
     "type": "pinyin_drag",
-    "instruction": "Susun Pinyin yang benar untuk \"今天\" (hari ini):",
-    "hintContent": "今天 dibaca 'jīn tiān'. Keduanya memakai nada ke-1.",
+    "instruction": "写出\"今天\"的正确拼音：",
+    "hintContent": "今天 读作 jīn tiān，两个都是第一声。",
     "pinyinSlots": [
       { "id": "slot-1", "placeholder": "今", "correctValue": "jīn" },
       { "id": "slot-2", "placeholder": "天", "correctValue": "tiān" }
@@ -367,15 +367,15 @@
   {
     "id": 34,
     "type": "manual",
-    "instruction": "Tulis Pinyin (tanpa nada) untuk \"爱好\" (hobi):",
-    "hintContent": "爱好 diromanisasi menjadi 'aihao'.",
+    "instruction": "写出\"爱好\"的拼音（不带声调）：",
+    "hintContent": "爱好 的拼音是 aihao。",
     "correctManualAnswer": "aihao"
   },
   {
     "id": 35,
     "type": "pinyin_drag",
-    "instruction": "Susun Pinyin yang benar untuk \"漂亮\" (cantik):",
-    "hintContent": "漂亮 dibaca 'piào liang'. 漂 = nada 4, 亮 nada netral/4.",
+    "instruction": "写出\"漂亮\"的正确拼音：",
+    "hintContent": "漂亮 读作 piào liàng。漂 = 第四声，亮 = 第四声/轻声。",
     "pinyinSlots": [
       { "id": "slot-1", "placeholder": "漂", "correctValue": "piào" },
       { "id": "slot-2", "placeholder": "亮", "correctValue": "liàng" }
@@ -385,16 +385,16 @@
   {
     "id": 36,
     "type": "conversation",
-    "instruction": "Pilih Pinyin yang tepat untuk melengkapi percakapan berikut:",
-    "hintContent": "Untuk '对不起！' (maaf), jawaban yang sopan adalah 'méi guānxi' (tidak apa-apa).",
+    "instruction": "选择正确的拼音来回答下面的对话：",
+    "hintContent": "对\"对不起！\"（Duìbuqǐ!），礼貌的回答是\"méi guānxi\"（没关系）。",
     "chatHistory": [
-      { "sender": "bot", "text": "对不起！ (Duìbuqǐ! — Maaf!)" }
+      { "sender": "bot", "text": "对不起！（Duìbuqǐ!）" }
     ],
     "options": [
-      "méi guānxi (Tidak apa-apa.)",
-      "zàijiàn (Sampai jumpa.)",
-      "wǒ hěn máng (Saya sangat sibuk.)"
+      "méi guānxi（没关系）",
+      "zàijiàn（再见）",
+      "wǒ hěn máng（我很忙）"
     ],
-    "correctOption": "méi guānxi (Tidak apa-apa.)"
+    "correctOption": "méi guānxi（没关系）"
   }
 ]
